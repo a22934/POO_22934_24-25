@@ -1,0 +1,15 @@
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\bin\Debug\net8.0\Projeto_POO.exe
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\bin\Debug\net8.0\Projeto_POO.deps.json
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\bin\Debug\net8.0\Projeto_POO.runtimeconfig.json
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\bin\Debug\net8.0\Projeto_POO.dll
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\bin\Debug\net8.0\Projeto_POO.pdb
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\obj\Debug\net8.0\Projeto_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\obj\Debug\net8.0\Projeto_POO.AssemblyInfoInputs.cache
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\obj\Debug\net8.0\Projeto_POO.AssemblyInfo.cs
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\obj\Debug\net8.0\Projeto_POO.csproj.CoreCompileInputs.cache
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\obj\Debug\net8.0\Projeto_POO.sourcelink.json
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\obj\Debug\net8.0\Projeto_POO.dll
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\obj\Debug\net8.0\refint\Projeto_POO.dll
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\obj\Debug\net8.0\Projeto_POO.pdb
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\obj\Debug\net8.0\Projeto_POO.genruntimeconfig.cache
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto_POO\obj\Debug\net8.0\ref\Projeto_POO.dll
