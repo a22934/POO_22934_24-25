@@ -19,14 +19,14 @@ namespace ClientManagement_OOP
             string nif;
             do
             {
-                Console.Write("NIF (apenas números): ");
+                Console.Write("NIF (Only Numbers): ");
                 nif = Console.ReadLine();
             } while (string.IsNullOrWhiteSpace(nif) || !IsAllDigits(nif)); // Valida a entrada do NIF
 
             string contact;
             do
             {
-                Console.Write("Contacto (apenas números): ");
+                Console.Write("Contacto (Only Numbers): ");
                 contact = Console.ReadLine();
             } while (string.IsNullOrWhiteSpace(contact) || !IsAllDigits(contact)); // Valida a entrada do Contacto
 
@@ -58,8 +58,16 @@ namespace ClientManagement_OOP
         }
 
         // Método para verificar se uma string contém apenas dígitos
+
+        // Método para verificar se uma string contém apenas dígitos
         private bool IsAllDigits(string input)
         {
+            // Verifica se a entrada não é nula ou vazia
+            if (string.IsNullOrEmpty(input))
+            {
+                return false;
+            }
+
             foreach (char c in input)
             {
                 if (!char.IsDigit(c)) // Verifica se cada caractere é um dígito
@@ -69,24 +77,6 @@ namespace ClientManagement_OOP
             }
             return true; // Retorna verdadeiro se todos os caracteres forem dígitos
         }
-    }
-    // Método para verificar se uma string contém apenas dígitos
-    private bool IsAllDigits(string input)
-    {
-        // Verifica se a entrada não é nula ou vazia
-        if (string.IsNullOrEmpty(input))
-        {
-            return false;
-        }
-
-        foreach (char c in input)
-        {
-            if (!char.IsDigit(c)) // Verifica se cada caractere é um dígito
-            {
-                return false; // Retorna falso se encontrar um não dígito
-            }
-        }
-        return true; // Retorna verdadeiro se todos os caracteres forem dígitos
     }
 }
 
