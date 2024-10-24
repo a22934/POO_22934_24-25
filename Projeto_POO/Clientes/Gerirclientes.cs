@@ -1,82 +1,47 @@
-﻿
-using System;
-using System.Collections.Generic;
+﻿using ClientManagement_OOP;
 
-namespace ClientManagement_OOP
+public class ManageClients
 {
-    public class ManageClients
+    private List<Client> clientList;
+
+    public ManageClients(List<Client> clients)
     {
-        private List<Client> clientList = new List<Client>();
+        clientList = clients;
+    }
 
-        // Method to add a new client
-        public void AddClient()
+    // Método para listar os clientes registados
+    public void ViewClients()
+    {
+        Console.WriteLine("\n--- List of Clients ---");
+
+        if (clientList.Count == 0)
         {
-            Console.WriteLine("\n--- Add Client ---");
-
-            Console.Write("Name: ");
-            string name = Console.ReadLine();
-
-            string nif;
-            do
-            {
-                Console.Write("NIF (Only Numbers): ");
-                nif = Console.ReadLine();
-            } while (string.IsNullOrWhiteSpace(nif) || !IsAllDigits(nif)); // Valida a entrada do NIF
-
-            string contact;
-            do
-            {
-                Console.Write("Contacto (Only Numbers): ");
-                contact = Console.ReadLine();
-            } while (string.IsNullOrWhiteSpace(contact) || !IsAllDigits(contact)); // Valida a entrada do Contacto
-
-
-            // Creates a new client with the entered data
-            Client newClient = new Client(name, nif, contact);
-            clientList.Add(newClient); // Adds the client to the list
-
-            Console.WriteLine("Client added successfully!\n");
+            Console.WriteLine("No clients registered.");
         }
-
-        // Method to list the registered clients
-        public void ViewClients()
+        else
         {
-            Console.WriteLine("\n--- List of Clients ---");
-
-            if (clientList.Count == 0)
+            for (int i = 0; i < clientList.Count; i++)
             {
-                Console.WriteLine("No clients registered.");
+                Console.WriteLine($"{i + 1}. {clientList[i]}"); // Exibe o índice junto com o cliente
             }
-            else
-            {
-                foreach (var client in clientList)
-                {
-                    Console.WriteLine(client); // Calls the ToString() method of the client
-                }
-            }
-            Console.WriteLine(); // Blank line for spacing
         }
+        Console.WriteLine(); // Linha em branco para espaçamento
+    }
 
-        // Método para verificar se uma string contém apenas dígitos
+    // Método para eliminar um cliente
+    public void RemoveClient()
+    {
+        ViewClients(); // Mostra a lista de clientes para que o usuário escolha
 
-        // Método para verificar se uma string contém apenas dígitos
-        private bool IsAllDigits(string input)
+        Console.Write("Enter the number of the client to remove: ");
+        if (int.TryParse(Console.ReadLine(), out int index) && index > 0 && index <= clientList.Count)
         {
-            // Verifica se a entrada não é nula ou vazia
-            if (string.IsNullOrEmpty(input))
-            {
-                return false;
-            }
-
-            foreach (char c in input)
-            {
-                if (!char.IsDigit(c)) // Verifica se cada caractere é um dígito
-                {
-                    return false; // Retorna falso se encontrar um não dígito
-                }
-            }
-            return true; // Retorna verdadeiro se todos os caracteres forem dígitos
+            clientList.RemoveAt(index - 1); // Remove o cliente da lista
+            Console.WriteLine("Client removed successfully!\n");
+        }
+        else
+        {
+            Console.WriteLine("Invalid selection, please try again.");
         }
     }
 }
-

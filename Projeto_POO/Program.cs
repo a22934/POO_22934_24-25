@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ClientManagement_OOP
 {
@@ -6,26 +7,34 @@ namespace ClientManagement_OOP
     {
         static void Main(string[] args)
         {
-            ManageClients clientManagement = new ManageClients(); // Instance of the ManageClients class
-            int option;
+            List<Client> clients = new List<Client>(); // Lista de clientes
+            RegistoMenu registoMenu = new RegistoMenu(clients); // Instância do menu de registo
+            ClientesMenu clientesMenu = new ClientesMenu(clients); // Instância do menu de clientes
 
-            // Main menu
+            int mainOption;
+
+            // Menu principal
             do
             {
                 Console.WriteLine("=== Client Management ===");
-                Console.WriteLine("1. Add Client");
-                Console.WriteLine("2. View Registered Clients");
+                Console.WriteLine("1. Registo");
+                Console.WriteLine("2. Clientes");
                 Console.WriteLine("0. Exit");
                 Console.Write("Choose an option: ");
-                option = Convert.ToInt32(Console.ReadLine());
 
-                switch (option)
+                if (!int.TryParse(Console.ReadLine(), out mainOption))
+                {
+                    Console.WriteLine("Invalid input, please enter a number.");
+                    continue;
+                }
+
+                switch (mainOption)
                 {
                     case 1:
-                        clientManagement.AddClient(); // Method from the ManageClients class
+                        registoMenu.ShowMenu(); // Chama o menu de registo
                         break;
                     case 2:
-                        clientManagement.ViewClients(); // Method from the ManageClients class
+                        clientesMenu.ShowMenu(); // Chama o menu de clientes
                         break;
                     case 0:
                         Console.WriteLine("Exiting...");
@@ -34,7 +43,7 @@ namespace ClientManagement_OOP
                         Console.WriteLine("Invalid option, please try again.");
                         break;
                 }
-            } while (option != 0);
+            } while (mainOption != 0);
         }
     }
 }
