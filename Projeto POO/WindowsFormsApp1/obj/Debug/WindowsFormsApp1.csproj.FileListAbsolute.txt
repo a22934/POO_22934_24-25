@@ -24,3 +24,5 @@ C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1
 C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ApartmentForm.resources
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RegisterApartmentForm.resources

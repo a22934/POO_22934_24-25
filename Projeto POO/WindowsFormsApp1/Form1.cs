@@ -8,6 +8,7 @@ namespace WindowsFormsApp1
     public partial class Form1 : Form
     {
         private List<Client> clients = new List<Client>();
+        public List<Apartment> Apartments { get; set; } = new List<Apartment>();
 
         public Form1()
         {
@@ -35,6 +36,15 @@ namespace WindowsFormsApp1
 
             // Abre o formulário
             registrosForm.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ApartmentForm apartmentForm = new ApartmentForm(this.Apartments)
+            {
+                Apartments = this.Apartments // Passa a lista de apartamentos do Form1
+            };
+            apartmentForm.ShowDialog();
         }
     }
 }

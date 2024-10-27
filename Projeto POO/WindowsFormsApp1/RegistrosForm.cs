@@ -8,6 +8,7 @@ namespace WindowsFormsApp1
     public partial class RegistrosForm : Form
     {
         public List<Client> Clients { get; set; } // Propriedade para a lista de clientes
+        public List<Apartment> Apartments { get; set; } // Propriedade para armazenar a lista de apartamentos
 
         public RegistrosForm()
         {
@@ -28,6 +29,22 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Cliente registrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Cria uma nova instância do RegisterClientForm
+            RegisterApartmentForm registerApartmentForm = new RegisterApartmentForm
+            {
+                Apartments = this.Apartments // Passa a lista de clientes
+            };
+
+            // Abre o formulário e verifica se o resultado é OK
+            if (registerApartmentForm.ShowDialog() == DialogResult.OK)
+            {
+                MessageBox.Show("Apartamento registrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
         }
     }
 }
