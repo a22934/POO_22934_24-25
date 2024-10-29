@@ -1,8 +1,7 @@
-﻿using ClientManagement_OOP;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1 // Confirme que o namespace coincide com o Form1.cs
+namespace WindowsFormsApp1
 {
     static class Program
     {
@@ -12,8 +11,18 @@ namespace WindowsFormsApp1 // Confirme que o namespace coincide com o Form1.cs
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Inicializa o formulário principal
-            Application.Run(new Form1());
+            // Exibe o formulário de login
+            LoginForm loginForm = new LoginForm();
+            if (loginForm.ShowDialog() == DialogResult.OK)
+            {
+                // Se o login for bem-sucedido, abre o Form1
+                Application.Run(new Form1());
+            }
+            else
+            {
+                // Fecha o aplicativo se o login falhar
+                Application.Exit();
+            }
         }
     }
 }
