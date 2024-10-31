@@ -46,6 +46,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAddClient);
             this.Name = "RegistrosForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registros";
             this.ResumeLayout(false);
 

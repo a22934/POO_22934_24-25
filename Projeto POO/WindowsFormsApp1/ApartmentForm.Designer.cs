@@ -10,16 +10,14 @@
             this.listBoxApartments = new System.Windows.Forms.ListBox();
             this.btnRemoveApartment = new System.Windows.Forms.Button();
             this.SuspendLayout();
-
             // 
             // listBoxApartments
             // 
             this.listBoxApartments.FormattingEnabled = true;
             this.listBoxApartments.Location = new System.Drawing.Point(10, 10);
             this.listBoxApartments.Name = "listBoxApartments";
-            this.listBoxApartments.Size = new System.Drawing.Size(300, 200);
+            this.listBoxApartments.Size = new System.Drawing.Size(300, 199);
             this.listBoxApartments.TabIndex = 0;
-
             // 
             // btnRemoveApartment
             // 
@@ -30,7 +28,6 @@
             this.btnRemoveApartment.Text = "Remover Apartamento";
             this.btnRemoveApartment.UseVisualStyleBackColor = true;
             this.btnRemoveApartment.Click += new System.EventHandler(this.btnRemoveApartment_Click);
-
             // 
             // ApartmentForm
             // 
@@ -38,8 +35,10 @@
             this.Controls.Add(this.listBoxApartments);
             this.Controls.Add(this.btnRemoveApartment);
             this.Name = "ApartmentForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de Apartamentos";
             this.ResumeLayout(false);
+
         }
     }
 }

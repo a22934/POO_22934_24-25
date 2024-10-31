@@ -148,6 +148,7 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.btnAddApartment);
             this.Name = "RegisterApartmentForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 

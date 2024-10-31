@@ -14,6 +14,7 @@ namespace WindowsFormsApp1
         public ApartmentForm(List<Apartment> apartments) // Construtor que aceita a lista de apartamentos
         {
             InitializeComponent(); // Inicializa os componentes do formulário
+            Apartments = apartments;
             LoadApartmentsFromFile();
             DisplayApartmentsInListBox();
         }
@@ -24,8 +25,7 @@ namespace WindowsFormsApp1
 
             foreach (var apartment in Apartments)
             {
-                // Aqui adicionamos o objeto Apartment diretamente no ListBox
-                listBoxApartments.Items.Add(apartment);
+                listBoxApartments.Items.Add(apartment); // Adiciona diretamente o objeto no ListBox
             }
         }
 
@@ -34,9 +34,6 @@ namespace WindowsFormsApp1
             string filePath = "apartments.json";
 
             if (File.Exists(filePath))
-
-
-           
             {
                 try
                 {
@@ -69,32 +66,27 @@ namespace WindowsFormsApp1
                 MessageBox.Show($"Erro ao salvar apartamentos: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void btnRemoveApartment_Click(object sender, EventArgs e)
         {
-            // Verifica se algum item está selecionado no ListBox
             if (listBoxApartments.SelectedIndex == -1)
             {
                 MessageBox.Show("Selecione um apartamento para remover.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Obtém o índice do apartamento selecionado
             int selectedIndex = listBoxApartments.SelectedIndex;
 
-            // Remove o apartamento da lista pelo índice
             if (selectedIndex >= 0 && selectedIndex < Apartments.Count)
             {
-                Apartments.RemoveAt(selectedIndex); // Remove o apartamento selecionado da lista
-                SaveApartmentsToFile(); // Salva a lista atualizada
-                DisplayApartmentsInListBox(); // Atualiza o ListBox
+                Apartments.RemoveAt(selectedIndex);
+                SaveApartmentsToFile();
+                DisplayApartmentsInListBox();
             }
             else
             {
                 MessageBox.Show("Não foi possível encontrar o apartamento selecionado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-
-
-
     }
 }

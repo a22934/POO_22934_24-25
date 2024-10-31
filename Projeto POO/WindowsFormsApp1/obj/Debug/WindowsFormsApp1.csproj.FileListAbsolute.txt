@@ -61,3 +61,8 @@ C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsForm
 C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
 C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\PP\Desktop\Trabalho pratico POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PP\Desktop\Trabalho pratico POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PP\Desktop\Trabalho pratico POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\PP\Desktop\Trabalho pratico POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\PP\Desktop\Trabalho pratico POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.HashCode.xml
