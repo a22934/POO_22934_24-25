@@ -4,17 +4,16 @@ namespace ClientManagement_OOP
 {
     public class Apartment
     {
-        public string Location { get; set; }
         public string Name { get; set; }
-        public string Typology { get; set; } // Tipologia (T1, T2, T3)
-        public string PropertyType { get; set; } // Tipo imóvel (Moradia ou Apartamento)
-        public string AdditionalFeatures { get; set; } // Características adicionais
+        public string Location { get; set; }
+        public string Typology { get; set; }
+        public string PropertyType { get; set; }
+        public string AdditionalFeatures { get; set; }
 
-        // Construtor para inicializar um apartamento
-        public Apartment(string location, string name, string typology, string propertyType, string additionalFeatures)
+        public Apartment(string name, string location, string typology, string propertyType, string additionalFeatures)
         {
-            Location = location;
             Name = name;
+            Location = location;
             Typology = typology;
             PropertyType = propertyType;
             AdditionalFeatures = additionalFeatures;
@@ -22,7 +21,8 @@ namespace ClientManagement_OOP
 
         public override string ToString()
         {
-            return $"Nome: {Name}, Localização: {Location}, Tipologia: {Typology}, Tipo de Imóvel: {PropertyType}, Características Adicionais: {AdditionalFeatures}";
+            // Customize this string to display what you want in the ListBox
+            return $"{Name} - {Location} - {Typology} - {PropertyType} - {AdditionalFeatures}";
         }
     }
 }

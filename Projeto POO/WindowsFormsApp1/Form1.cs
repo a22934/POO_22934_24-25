@@ -38,11 +38,11 @@ namespace WindowsFormsApp1
             registrosForm.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnApartments_Click(object sender, EventArgs e)
         {
-            ApartmentForm apartmentForm = new ApartmentForm(this.Apartments)
+            ApartmentForm apartmentForm = new ApartmentForm(this.Apartments) // Passa a lista de apartamentos para o construtor
             {
-                Apartments = this.Apartments // Passa a lista de apartamentos do Form1
+                Apartments = this.Apartments
             };
             apartmentForm.ShowDialog();
         }

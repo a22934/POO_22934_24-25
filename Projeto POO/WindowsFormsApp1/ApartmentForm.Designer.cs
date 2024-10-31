@@ -2,51 +2,45 @@
 {
     partial class ApartmentForm
     {
-        private System.ComponentModel.IContainer components = null;
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        private System.Windows.Forms.ListBox listBoxApartments;
+        private System.Windows.Forms.Button btnRemoveApartment;
 
         private void InitializeComponent()
         {
             this.listBoxApartments = new System.Windows.Forms.ListBox();
-            this.btnRemove = new System.Windows.Forms.Button();
+            this.btnRemoveApartment = new System.Windows.Forms.Button();
             this.SuspendLayout();
+
             // 
             // listBoxApartments
             // 
             this.listBoxApartments.FormattingEnabled = true;
-            this.listBoxApartments.Location = new System.Drawing.Point(12, 12);
+            this.listBoxApartments.Location = new System.Drawing.Point(10, 10);
             this.listBoxApartments.Name = "listBoxApartments";
-            this.listBoxApartments.Size = new System.Drawing.Size(928, 342);
+            this.listBoxApartments.Size = new System.Drawing.Size(300, 200);
             this.listBoxApartments.TabIndex = 0;
+
             // 
-            // btnRemove
+            // btnRemoveApartment
             // 
-            this.btnRemove.Location = new System.Drawing.Point(12, 372);
-            this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(75, 23);
-            this.btnRemove.TabIndex = 1;
-            this.btnRemove.Text = "Remover";
-            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemoveApartment.Location = new System.Drawing.Point(10, 220);
+            this.btnRemoveApartment.Name = "btnRemoveApartment";
+            this.btnRemoveApartment.Size = new System.Drawing.Size(120, 30);
+            this.btnRemoveApartment.TabIndex = 1;
+            this.btnRemoveApartment.Text = "Remover Apartamento";
+            this.btnRemoveApartment.UseVisualStyleBackColor = true;
+            this.btnRemoveApartment.Click += new System.EventHandler(this.btnRemoveApartment_Click);
+
             // 
             // ApartmentForm
             // 
-            this.ClientSize = new System.Drawing.Size(971, 474);
-            this.Controls.Add(this.btnRemove);
+            this.ClientSize = new System.Drawing.Size(330, 270);
             this.Controls.Add(this.listBoxApartments);
+            this.Controls.Add(this.btnRemoveApartment);
             this.Name = "ApartmentForm";
+            this.Text = "Lista de Apartamentos";
             this.ResumeLayout(false);
-
         }
-
-        private System.Windows.Forms.ListBox listBoxApartments; // Declare apenas uma vez
-        private System.Windows.Forms.Button btnRemove; // Declare o botão de remoção
     }
 }
+

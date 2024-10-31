@@ -42,3 +42,22 @@ C:\Users\PP\Desktop\Trabalho pratico POO\POO_22934_24-25\Projeto POO\WindowsForm
 C:\Users\PP\Desktop\Trabalho pratico POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\PP\Desktop\Trabalho pratico POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\PP\Desktop\Trabalho pratico POO\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ApartmentForm.resources
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ClientForm.resources
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RegisterApartmentForm.resources
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RegisterClientForm.resources
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RegistrosForm.resources
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginForm.resources
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Win10\Desktop\Trabalho POO\POO_22934_24-25-main\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
