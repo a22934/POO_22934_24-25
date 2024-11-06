@@ -1,7 +1,9 @@
 ﻿using ClientManagement_OOP;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WindowsFormsApp1
 {
@@ -12,6 +14,7 @@ namespace WindowsFormsApp1
         public RegisterClientForm()
         {
             InitializeComponent(); // Inicializa os componentes do formulário
+            LoadClientsFromFile();
         }
 
         private void btnAddClient_Click(object sender, EventArgs e)
@@ -29,8 +32,60 @@ namespace WindowsFormsApp1
 
             // Cria um novo cliente e o adiciona à lista
             Clients.Add(new Client(name, nif, contact));
+
+            SaveClientsToFile(); // Salva a lista atualizada no arquivo
             this.DialogResult = DialogResult.OK; // Define o resultado como OK
             this.Close(); // Fecha o formulário
+        }
+
+        private void SaveClientsToFile()
+        {
+            string filePath = "Clients.json";
+
+            try
+            {
+                // Carrega os clientes existentes do arquivo JSON
+                List<Client> existingClients = new List<Client>();
+                if (File.Exists(filePath))
+                {
+                    string json = File.ReadAllText(filePath);
+                    existingClients = JsonConvert.DeserializeObject<List<Client>>(json) ?? new List<Client>();
+                }
+
+                // Adiciona os novos clientes à lista existente
+                existingClients.AddRange(Clients);
+
+                // Serializa a lista completa e salva no arquivo JSON
+                string updatedJson = JsonConvert.SerializeObject(existingClients, Formatting.Indented);
+                File.WriteAllText(filePath, updatedJson);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao salvar clientes: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void LoadClientsFromFile()
+        {
+            string filePath = "Clients.json";
+
+            try
+            {
+                if (File.Exists(filePath))
+                {
+                    string json = File.ReadAllText(filePath);
+                    Clients = JsonConvert.DeserializeObject<List<Client>>(json) ?? new List<Client>();
+                }
+                else
+                {
+                    Clients = new List<Client>();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao carregar clientes: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Clients = new List<Client>();
+            }
         }
     }
 }

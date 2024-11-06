@@ -1,0 +1,40 @@
+[
+  {
+    "Id": 1,
+    "Cliente": {
+      "Name": "Nome Cliente",
+      "NIF": "NIF",
+      "Contact": "Contato"
+    },
+    "Apartamento": {
+      "Name": "MARE",
+      "Location": "SADAD",
+      "Typology": "SADAS",
+      "PropertyType": "DSADSA",
+      "AdditionalFeatures": ""
+    },
+    "CheckInDate": "2024-11-06T23:26:00.6254891+00:00",
+    "CheckOutDate": "2024-11-06T23:26:00.6314298+00:00",
+    "IsCheckedIn": false,
+    "IsCheckedOut": false
+  },
+  {
+    "Id": 2,
+    "Cliente": {
+      "Name": "Nome Cliente",
+      "NIF": "NIF",
+      "Contact": "Contato"
+    },
+    "Apartamento": {
+      "Name": "MARE",
+      "Location": "SADAD",
+      "Typology": "SADAS",
+      "PropertyType": "DSADSA",
+      "AdditionalFeatures": ""
+    },
+    "CheckInDate": "2024-11-07T23:31:29",
+    "CheckOutDate": "2024-11-06T23:31:29.9004573+00:00",
+    "IsCheckedIn": false,
+    "IsCheckedOut": false
+  }
+]

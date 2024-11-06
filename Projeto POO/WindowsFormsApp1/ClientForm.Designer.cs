@@ -15,10 +15,9 @@
 
         private void InitializeComponent()
         {
-            this.listBoxClients = new System.Windows.Forms.ListBox(); // Declare apenas uma vez
-            this.btnRemove = new System.Windows.Forms.Button(); // Botão para remover cliente
+            this.listBoxClients = new System.Windows.Forms.ListBox();
+            this.btnRemove = new System.Windows.Forms.Button();
             this.SuspendLayout();
-
             // 
             // listBoxClients
             // 
@@ -27,7 +26,6 @@
             this.listBoxClients.Name = "listBoxClients";
             this.listBoxClients.Size = new System.Drawing.Size(360, 160);
             this.listBoxClients.TabIndex = 0;
-
             // 
             // btnRemove
             // 
@@ -38,17 +36,17 @@
             this.btnRemove.Text = "Remover";
             this.btnRemove.UseVisualStyleBackColor = true;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
-
             // 
             // ClientForm
             // 
             this.ClientSize = new System.Drawing.Size(384, 211);
             this.Controls.Add(this.btnRemove);
-            this.Controls.Add(this.listBoxClients); // Adiciona o ListBox aos controles do formulário
+            this.Controls.Add(this.listBoxClients);
             this.Name = "ClientForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
-            this.Load += new System.EventHandler(this.ClientForm_Load);
             this.ResumeLayout(false);
+
         }
 
         private System.Windows.Forms.ListBox listBoxClients; // Declare apenas uma vez

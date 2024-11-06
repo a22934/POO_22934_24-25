@@ -7,7 +7,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        private List<Client> clients = new List<Client>();
+        private List<Client> clients { get; set; } = new List<Client>();
         public List<Apartment> Apartments { get; set; } = new List<Apartment>();
 
         public Form1()
@@ -18,10 +18,7 @@ namespace WindowsFormsApp1
         // Evento para o botão "Clientes"
         private void btnClients_Click(object sender, EventArgs e)
         {
-            ClientForm clientForm = new ClientForm
-            {
-                Clients = this.clients // Passa a lista de clientes do Form1
-            };
+            ClientForm clientForm = new ClientForm(this.clients);
             clientForm.ShowDialog();
         }
 
@@ -40,10 +37,7 @@ namespace WindowsFormsApp1
 
         private void btnApartments_Click(object sender, EventArgs e)
         {
-            ApartmentForm apartmentForm = new ApartmentForm(this.Apartments) // Passa a lista de apartamentos para o construtor
-            {
-                Apartments = this.Apartments
-            };
+            ApartmentForm apartmentForm = new ApartmentForm(this.Apartments); // Passa a lista de apartamentos para o construtor
             apartmentForm.ShowDialog();
         }
     }

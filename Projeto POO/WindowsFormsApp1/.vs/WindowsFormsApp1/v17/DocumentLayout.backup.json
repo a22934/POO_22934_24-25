@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\trabalho poo\\poo_22934_24-25-main\\projeto poo\\windowsformsapp1\\apartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:apartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\trabalho poo\\poo_22934_24-25-main\\projeto poo\\windowsformsapp1\\apartmentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\nova pasta\\poo_22934_24-25-main\\projeto poo\\windowsformsapp1\\apartmentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:apartmentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\trabalho poo\\poo_22934_24-25-main\\projeto poo\\windowsformsapp1\\classes\\apartments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\apartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:apartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\classes\\apartments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:classes\\apartments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\apartments.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\apartments.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\trabalho poo\\poo_22934_24-25-main\\projeto poo\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\classes\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:classes\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\classes\\gestorreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:classes\\gestorreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\trabalho poo\\poo_22934_24-25-main\\projeto poo\\windowsformsapp1\\registerapartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:registerapartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\trabalho poo\\poo_22934_24-25-main\\projeto poo\\windowsformsapp1\\apartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:apartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,96 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApartmentForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\ApartmentForm.Designer.cs",
+              "RelativeDocumentMoniker": "ApartmentForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\ApartmentForm.Designer.cs",
+              "RelativeToolTip": "ApartmentForm.Designer.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwFsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T23:37:58.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GestorReservas.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Classes\\GestorReservas.cs",
+              "RelativeDocumentMoniker": "Classes\\GestorReservas.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Classes\\GestorReservas.cs",
+              "RelativeToolTip": "Classes\\GestorReservas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T23:14:47.024Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "apartments.json",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\apartments.json",
-              "RelativeDocumentMoniker": "bin\\Debug\\apartments.json",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\apartments.json",
-              "RelativeToolTip": "bin\\Debug\\apartments.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-31T17:21:07.779Z",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T23:16:31.477Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Classes\\Reserva.cs",
+              "RelativeDocumentMoniker": "Classes\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Classes\\Reserva.cs",
+              "RelativeToolTip": "Classes\\Reserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T23:13:15.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApartmentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\ApartmentForm.cs",
+              "RelativeDocumentMoniker": "ApartmentForm.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\ApartmentForm.cs",
+              "RelativeToolTip": "ApartmentForm.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAUwGMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T23:11:57.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Apartments.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Classes\\Apartments.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Classes\\Apartments.cs",
               "RelativeDocumentMoniker": "Classes\\Apartments.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Classes\\Apartments.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Classes\\Apartments.cs",
               "RelativeToolTip": "Classes\\Apartments.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wA4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T17:17:01.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApartmentForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\ApartmentForm.Designer.cs",
-              "RelativeDocumentMoniker": "ApartmentForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\ApartmentForm.Designer.cs",
-              "RelativeToolTip": "ApartmentForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T16:56:47.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApartmentForm.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\ApartmentForm.cs",
-              "RelativeDocumentMoniker": "ApartmentForm.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\ApartmentForm.cs",
-              "RelativeToolTip": "ApartmentForm.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAcwFYAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T16:52:58.376Z",
+              "WhenOpened": "2024-11-06T23:13:34.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ApartmentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\ApartmentForm.cs",
-              "RelativeDocumentMoniker": "ApartmentForm.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\ApartmentForm.cs [Design]",
-              "RelativeToolTip": "ApartmentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T16:52:00.407Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\Nova pasta\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAewCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T16:48:50.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegisterApartmentForm.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\RegisterApartmentForm.cs",
-              "RelativeDocumentMoniker": "RegisterApartmentForm.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Trabalho POO\\POO_22934_24-25-main\\Projeto POO\\WindowsFormsApp1\\RegisterApartmentForm.cs",
-              "RelativeToolTip": "RegisterApartmentForm.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T16:46:35.44Z",
+              "WhenOpened": "2024-11-06T23:16:33.524Z",
               "EditorCaption": ""
             }
           ]
