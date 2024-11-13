@@ -9,6 +9,7 @@ namespace WindowsFormsApp1
     {
         public List<Client> Clients { get; set; } // Propriedade para a lista de clientes
         public List<Apartment> Apartments { get; set; } // Propriedade para armazenar a lista de apartamentos
+        public List<Funcionario> Funcionarios { get; set; } // Propriedade para armazenar a lista de funcionários
 
         public RegistrosForm()
         {
@@ -46,5 +47,17 @@ namespace WindowsFormsApp1
             }
 
         }
+
+        private void btnRegisterEmployee_Click(object sender, EventArgs e)
+        {
+            // Certifique-se de que o namespace correto está sendo usado
+            RegisterEmployeeForm registerEmployeeForm = new RegisterEmployeeForm(this.Funcionarios);
+
+            if (registerEmployeeForm.ShowDialog() == DialogResult.OK)
+            {
+                MessageBox.Show("Funcionário registrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
-}
+    }
+

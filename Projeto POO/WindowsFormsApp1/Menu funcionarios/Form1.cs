@@ -37,7 +37,7 @@ namespace WindowsFormsApp1
 
         private void btnApartments_Click(object sender, EventArgs e)
         {
-            ApartmentForm apartmentForm = new ApartmentForm(this.Apartments); // Passa a lista de apartamentos para o construtor
+            ApartmentForm apartmentForm = new ApartmentForm(this.Apartments, true); // Passa a lista de apartamentos para o construtor
             apartmentForm.ShowDialog();
         }
     }

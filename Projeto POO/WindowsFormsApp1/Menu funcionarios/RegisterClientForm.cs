@@ -22,6 +22,7 @@ namespace WindowsFormsApp1
             string name = txtName.Text; // Obtém o nome do cliente
             string nif = txtNIF.Text; // Obtém o NIF do cliente
             string contact = txtContact.Text; // Obtém o contato do cliente
+            string password = txtPassword.Text; // Obtém a senha do cliente
 
             // Valida se NIF e contato são apenas números
             if (!long.TryParse(nif, out _) || !long.TryParse(contact, out _))
@@ -31,7 +32,7 @@ namespace WindowsFormsApp1
             }
 
             // Cria um novo cliente e o adiciona à lista
-            Clients.Add(new Client(name, nif, contact));
+            Clients.Add(new Client(name, nif, contact, password));
 
             SaveClientsToFile(); // Salva a lista atualizada no arquivo
             this.DialogResult = DialogResult.OK; // Define o resultado como OK

@@ -52,62 +52,81 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApartmentForm.cs">
+    <Compile Include="Classes\Funcionarios.cs" />
+    <Compile Include="Menu clientes\Clientesmenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ApartmentForm.Designer.cs">
+    <Compile Include="Menu clientes\Clientesmenu.Designer.cs">
+      <DependentUpon>Clientesmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu funcionarios\ApartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu funcionarios\ApartmentForm.Designer.cs">
       <DependentUpon>ApartmentForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Apartments.cs" />
     <Compile Include="Classes\Client.cs" />
     <Compile Include="Classes\GestorReservas.cs" />
     <Compile Include="Classes\Reserva.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Menu funcionarios\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Menu funcionarios\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClientForm.cs">
+    <Compile Include="Menu funcionarios\ClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientForm.Designer.cs">
+    <Compile Include="Menu funcionarios\ClientForm.Designer.cs">
       <DependentUpon>ClientForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegisterApartmentForm.cs">
+    <Compile Include="Menu funcionarios\RegisterApartmentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegisterApartmentForm.Designer.cs">
+    <Compile Include="Menu funcionarios\RegisterApartmentForm.Designer.cs">
       <DependentUpon>RegisterApartmentForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegisterClientForm.cs">
+    <Compile Include="Menu funcionarios\RegisterClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegisterClientForm.Designer.cs">
+    <Compile Include="Menu funcionarios\RegisterClientForm.Designer.cs">
       <DependentUpon>RegisterClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu funcionarios\RegisterEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu funcionarios\RegisterEmployeeForm.Designer.cs">
+      <DependentUpon>RegisterEmployeeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistrosForm.cs">
+    <Compile Include="Menu funcionarios\RegistrosForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrosForm.Designer.cs">
+    <Compile Include="Menu funcionarios\RegistrosForm.Designer.cs">
       <DependentUpon>RegistrosForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Login\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Login\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ApartmentForm.resx">
+    <EmbeddedResource Include="Menu clientes\Clientesmenu.resx">
+      <DependentUpon>Clientesmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu funcionarios\ApartmentForm.resx">
       <DependentUpon>ApartmentForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Menu funcionarios\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClientForm.resx">
+    <EmbeddedResource Include="Menu funcionarios\ClientForm.resx">
       <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu funcionarios\RegisterEmployeeForm.resx">
+      <DependentUpon>RegisterEmployeeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,16 +137,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RegisterApartmentForm.resx">
+    <EmbeddedResource Include="Menu funcionarios\RegisterApartmentForm.resx">
       <DependentUpon>RegisterApartmentForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegisterClientForm.resx">
+    <EmbeddedResource Include="Menu funcionarios\RegisterClientForm.resx">
       <DependentUpon>RegisterClientForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistrosForm.resx">
+    <EmbeddedResource Include="Menu funcionarios\RegistrosForm.resx">
       <DependentUpon>RegistrosForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="Login\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

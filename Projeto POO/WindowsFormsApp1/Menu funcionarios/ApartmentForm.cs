@@ -1,9 +1,8 @@
-﻿using ClientManagement_OOP;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
 using System.IO;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
@@ -11,13 +10,22 @@ namespace WindowsFormsApp1
     {
         public List<Apartment> Apartments { get; set; } // Propriedade para armazenar a lista de apartamentos
         private GestorDeReservas gestorDeReservas = new GestorDeReservas();
+        private bool IsFuncionario { get; set; } // Nova propriedade booleana para controle
 
-        public ApartmentForm(List<Apartment> apartments) // Construtor que aceita a lista de apartamentos
+        public ApartmentForm(List<Apartment> apartments, bool isFuncionario)
         {
-            InitializeComponent(); // Inicializa os componentes do formulário
+            InitializeComponent();
             Apartments = apartments;
+            IsFuncionario = isFuncionario; // Atribui o valor para saber se é funcionário
+
             LoadApartmentsFromFile();
             DisplayApartmentsInDataGridView();
+
+            // Verifica se não é um funcionário e esconde o botão de remover
+            if (!IsFuncionario)
+            {
+                btnRemoveApartment.Visible = false;
+            }
         }
 
         private void DisplayApartmentsInDataGridView()
