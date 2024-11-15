@@ -28,7 +28,12 @@ namespace WindowsFormsApp1
                 MessageBox.Show("Todos os campos são obrigatórios.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-
+            // Valida se NIF e contato são apenas números
+            if (!long.TryParse(numeroFuncionario, out _) )
+            {
+                MessageBox.Show("O Numero de Funcionario deve conter apenas números.", "Erro de Validação", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; // Sai do método se a validação falhar
+            }
             // Verifica se o número de funcionário já existe
             if (Funcionarios.Exists(f => f.NumeroFuncionario == numeroFuncionario))
             {

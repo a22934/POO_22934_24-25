@@ -68,7 +68,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(313, 185);
+            this.ClientSize = new System.Drawing.Size(396, 211);
             this.Controls.Add(this.btnApartments);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnClients);

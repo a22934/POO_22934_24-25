@@ -1,12 +1,8 @@
 [
   {
-    "Nome": "Adelaide",
     "NumeroFuncionario": "1234",
-    "Password": "12345"
-  },
-  {
-    "Nome": "joao",
-    "NumeroFuncionario": "12345",
+    "Nome": "Adelaide",
     "Password": "12345"
   }
+ 
 ]

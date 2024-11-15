@@ -43,7 +43,7 @@ namespace WindowsFormsApp1
             }
 
             // Caso não seja funcionário, verifica se é um cliente
-            Client client = Clients.Find(c => c.Name == username && c.Password == password);
+            Client client = Clients.Find(c => c.Nome == username && c.Password == password);
             if (client != null)
             {
                 // Login bem-sucedido de cliente

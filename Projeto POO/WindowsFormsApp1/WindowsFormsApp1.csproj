@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Funcionarios.cs" />
+    <Compile Include="Classes\Pessoa.cs" />
     <Compile Include="Menu clientes\Clientesmenu.cs">
       <SubType>Form</SubType>
     </Compile>
