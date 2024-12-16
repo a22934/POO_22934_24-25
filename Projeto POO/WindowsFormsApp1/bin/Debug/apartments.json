@@ -1,9 +1,10 @@
 [
   {
-    "Name": "mare ",
+    "Name": "mare",
     "Location": "faro",
-    "Typology": "t3",
+    "Typology": "t5",
     "PropertyType": "moradia",
-    "AdditionalFeatures": ""
+    "AdditionalFeatures": "",
+    "PrecoPorNoite": "120"
   }
 ]

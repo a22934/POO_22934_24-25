@@ -39,6 +39,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtPropertyType = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.numPrecoPorNoite = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAddApartment
@@ -131,11 +133,29 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Descrição adicional";
             // 
+            // numPrecoPorNoite
+            // 
+            this.numPrecoPorNoite.Location = new System.Drawing.Point(111, 214);
+            this.numPrecoPorNoite.Name = "numPrecoPorNoite";
+            this.numPrecoPorNoite.Size = new System.Drawing.Size(100, 20);
+            this.numPrecoPorNoite.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(111, 201);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(79, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Preço por noite";
+            // 
             // RegisterApartmentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(303, 280);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.numPrecoPorNoite);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -167,5 +187,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtPropertyType;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox numPrecoPorNoite;
+        private System.Windows.Forms.Label label6;
     }
 }

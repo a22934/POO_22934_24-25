@@ -8,17 +8,19 @@ public class Apartment
     public string Typology { get; set; }
     public string PropertyType { get; set; }
     public string AdditionalFeatures { get; set; }
+    public string PrecoPorNoite { get; set; }
 
     // Lista para armazenar períodos de indisponibilidade (check-ins e check-outs)
     private List<(DateTime inicio, DateTime fim)> PeriodosIndisponiveis { get; set; } = new List<(DateTime, DateTime)>();
 
-    public Apartment(string name, string location, string typology, string propertyType, string additionalFeatures)
+    public Apartment(string name, string location, string typology, string propertyType, string additionalFeatures, string precoPorNoite)
     {
         Name = name;
         Location = location;
         Typology = typology;
         PropertyType = propertyType;
         AdditionalFeatures = additionalFeatures;
+        PrecoPorNoite = precoPorNoite;
     }
 
     // Método para verificar se o apartamento está disponível para um período específico
@@ -41,6 +43,6 @@ public class Apartment
 
     public override string ToString()
     {
-        return $"{Name} - {Location} - {Typology} - {PropertyType} - {AdditionalFeatures}";
+        return $"{Name} - {Location} - {Typology} - {PropertyType} - {AdditionalFeatures} - {PrecoPorNoite:C}";
     }
 }

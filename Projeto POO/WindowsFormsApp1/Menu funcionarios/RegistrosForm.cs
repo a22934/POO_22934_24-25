@@ -19,16 +19,15 @@ namespace WindowsFormsApp1
 
         private void btnAddClient_Click(object sender, EventArgs e)
         {
-            // Cria uma nova instância do RegisterClientForm
-            RegisterClientForm registerClientForm = new RegisterClientForm
-            {
-                Clients = this.Clients // Passa a lista de clientes
-            };
+            // Cria uma nova instância do RegisterClientForm e passa a lista de clientes
+            RegisterClientForm registerClientForm = new RegisterClientForm(this.Clients);
 
             // Abre o formulário e verifica se o resultado é OK
             if (registerClientForm.ShowDialog() == DialogResult.OK)
             {
                 MessageBox.Show("Cliente registrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                // Você pode chamar algum método para atualizar a lista ou o ListBox, se necessário
+            
             }
         }
 

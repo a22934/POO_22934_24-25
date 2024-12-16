@@ -1,8 +1,14 @@
 [
   {
-    "Name": "joaquim",
-    "NIF": "2323",
-    "Contact": "321321",
+    "NIF": "231321",
+    "Contact": "2132",
+    "Nome": "alberto",
     "Password": "12345"
+  },
+  {
+    "NIF": "323213",
+    "Contact": "213",
+    "Nome": "joaquim",
+    "Password": "33333"
   }
 ]

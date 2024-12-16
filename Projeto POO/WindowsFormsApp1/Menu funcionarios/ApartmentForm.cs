@@ -8,26 +8,29 @@ namespace WindowsFormsApp1
 {
     public partial class ApartmentForm : Form
     {
-        public List<Apartment> Apartments { get; set; } // Propriedade para armazenar a lista de apartamentos
-        private GestorDeReservas gestorDeReservas = new GestorDeReservas();
-        private bool IsFuncionario { get; set; } // Nova propriedade booleana para controle
+        public List<Apartment> Apartments { get; set; } // Lista de apartamentos
+        private readonly string filePath = "apartments.json"; // Caminho do arquivo JSON
+        private bool IsFuncionario { get; set; } // Controle de visibilidade do botão para funcionários
 
         public ApartmentForm(List<Apartment> apartments, bool isFuncionario)
         {
             InitializeComponent();
             Apartments = apartments;
             IsFuncionario = isFuncionario; // Atribui o valor para saber se é funcionário
+            dataGridViewApartments.Columns.Add("PrecoPorNoite", "Preço por Noite");
 
-            LoadApartmentsFromFile();
+            // Carrega os apartamentos diretamente usando DataLoader
+            Apartments = DataLoader.LoadApartmentsFromFile(filePath);
+            // Exibe os apartamentos no DataGridView
             DisplayApartmentsInDataGridView();
-
-            // Verifica se não é um funcionário e esconde o botão de remover
+            // Se não for funcionário, esconde o botão de remoção
             if (!IsFuncionario)
             {
                 btnRemoveApartment.Visible = false;
             }
         }
 
+        // Exibe os apartamentos no DataGridView
         private void DisplayApartmentsInDataGridView()
         {
             dataGridViewApartments.Rows.Clear(); // Limpa as linhas do DataGridView antes de adicionar novas
@@ -35,78 +38,21 @@ namespace WindowsFormsApp1
             // Preenche o DataGridView com os apartamentos restantes
             foreach (var apartment in Apartments)
             {
-                dataGridViewApartments.Rows.Add(apartment.Name, apartment.Location, apartment.Typology, apartment.PropertyType, apartment.AdditionalFeatures);
+                dataGridViewApartments.Rows.Add(apartment.Name, apartment.Location, apartment.Typology, apartment.PropertyType, apartment.AdditionalFeatures, apartment.PrecoPorNoite);
             }
         }
 
-        private void LoadApartmentsFromFile()
-        {
-            string filePath = "apartments.json";
-
-            if (File.Exists(filePath))
-            {
-                try
-                {
-                    string json = File.ReadAllText(filePath);
-                    Apartments = JsonConvert.DeserializeObject<List<Apartment>>(json) ?? new List<Apartment>();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Erro ao carregar apartamentos: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    Apartments = new List<Apartment>();
-                }
-            }
-            else
-            {
-                Apartments = new List<Apartment>();
-            }
-        }
-
-        private void SaveApartmentsToFile()
-        {
-            string filePath = "apartments.json";
-
-            try
-            {
-                string updatedJson = JsonConvert.SerializeObject(Apartments, Formatting.Indented);
-                File.WriteAllText(filePath, updatedJson);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Erro ao salvar apartamentos: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
+        // Evento de clique para o botão de remover apartamento
         private void btnRemoveApartment_Click(object sender, EventArgs e)
         {
-            // Verifica se o usuário selecionou uma linha
-            if (dataGridViewApartments.SelectedCells.Count == 0)
-            {
-                MessageBox.Show("Selecione um apartamento para remover.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            // Obtém o índice da linha selecionada, utilizando SelectedCells
+            // Obtém o índice da linha selecionada
             int selectedIndex = dataGridViewApartments.SelectedCells[0].RowIndex;
 
-            // Verifica se o índice está dentro dos limites da lista de apartamentos
-            if (selectedIndex >= 0 && selectedIndex < Apartments.Count)
-            {
-                // Remove o apartamento da lista de apartamentos com base no índice
-                Apartments.RemoveAt(selectedIndex);
+            // Chama o método de remoção no Remove.cs
+            Remove.RemoveApartment(Apartments, filePath, selectedIndex);
 
-                // Salva a lista atualizada de apartamentos no arquivo JSON
-                SaveApartmentsToFile();
-
-                // Atualiza o DataGridView para refletir as alterações
-                DisplayApartmentsInDataGridView();
-            }
-            else
-            {
-                MessageBox.Show("Não foi possível encontrar o apartamento selecionado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+            // Atualiza o DataGridView com a lista de apartamentos atualizada após a remoção
+            DisplayApartmentsInDataGridView();
         }
-
     }
 }
-

@@ -1,101 +1,43 @@
 ﻿using ClientManagement_OOP;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using System.IO;
 
 namespace WindowsFormsApp1
 {
     public partial class RegisterEmployeeForm : Form
     {
         public List<Funcionario> Funcionarios { get; set; }
+        private readonly string filePath = "funcionarios.json";
+
         public RegisterEmployeeForm(List<Funcionario> funcionarios)
         {
             InitializeComponent();
-            LoadFuncionariosFromFile();
-            
+
+            // Carrega a lista de funcionários do arquivo JSON
+            Funcionarios = DataLoader.LoadFuncionariosFromFile(filePath);
         }
+
         private void btnAddEmployee_Click(object sender, EventArgs e)
         {
+            // Obtém os dados dos campos do formulário
             string nome = txtNome.Text;
             string numeroFuncionario = txtNumeroFuncionario.Text;
             string password = txtPassword.Text;
 
-            // Verifica se todos os campos estão preenchidos
-            if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(numeroFuncionario) || string.IsNullOrWhiteSpace(password))
-            {
-                MessageBox.Show("Todos os campos são obrigatórios.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            // Valida se NIF e contato são apenas números
-            if (!long.TryParse(numeroFuncionario, out _) )
-            {
-                MessageBox.Show("O Numero de Funcionario deve conter apenas números.", "Erro de Validação", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return; // Sai do método se a validação falhar
-            }
-            // Verifica se o número de funcionário já existe
-            if (Funcionarios.Exists(f => f.NumeroFuncionario == numeroFuncionario))
-            {
-                MessageBox.Show("Número de funcionário já existe.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+            // Chama o método da classe Registos para registrar o funcionário
+            Registos.RegisterEmployee(Funcionarios, filePath, nome, numeroFuncionario, password);
 
-            // Cria um novo objeto Funcionario
-            Funcionario newFuncionario = new Funcionario(nome, numeroFuncionario, password);
-            Funcionarios.Add(newFuncionario);
-            SaveFuncionariosToFile();
-
-            MessageBox.Show("Funcionário registrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            // Define o DialogResult como OK e fecha o formulário
+            // Fecha o formulário após registrar com sucesso
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
-        private void SaveFuncionariosToFile()
-        {
-            string filePath = "funcionarios.json"; // Certifique-se de que o caminho está correto
-
-            try
-            {
-                string updatedJson = JsonConvert.SerializeObject(Funcionarios, Formatting.Indented); // Serializa a lista `Funcionarios`
-                File.WriteAllText(filePath, updatedJson);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Erro ao salvar funcionarios: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-        private void LoadFuncionariosFromFile()
-        {
-            string filePath = "funcionarios.json"; // Caminho do arquivo JSON
-
-            if (File.Exists(filePath))
-            {
-                try
-                {
-                    string json = File.ReadAllText(filePath);
-                    Funcionarios = JsonConvert.DeserializeObject<List<Funcionario>>(json) ?? new List<Funcionario>();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Erro ao carregar funcionarios: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    Funcionarios = new List<Funcionario>();
-                }
-            }
-            else
-            {
-                Funcionarios = new List<Funcionario>();
-            }
-        }
-       
     }
 }
 
 
 
-   
-       
-  
 
-    
+
+
+

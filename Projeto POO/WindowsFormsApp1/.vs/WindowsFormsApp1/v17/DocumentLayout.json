@@ -1,42 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ultima altera\u00E7\u00E3o\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\classes\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:classes\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\classes\\gestorreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:classes\\gestorreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ultima altera\u00E7\u00E3o\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\classes\\apartments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:classes\\apartments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ultima altera\u00E7\u00E3o\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\menu funcionarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\menu funcionarios\\registeremployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\registeremployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\menu clientes\\clientesmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu clientes\\clientesmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\menu funcionarios\\apartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\apartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\metodos\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:metodos\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\menu funcionarios\\apartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\apartmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\metodos\\registos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:metodos\\registos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\metodos\\remove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:metodos\\remove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\menu funcionarios\\registrosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\registrosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\Clients.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\Clients.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\metodos\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:metodos\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\metodos\\loginhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:metodos\\loginhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\menu funcionarios\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,27 +59,130 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Classes\\Reserva.cs",
-              "RelativeDocumentMoniker": "Classes\\Reserva.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Classes\\Reserva.cs",
-              "RelativeToolTip": "Classes\\Reserva.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "Login\\Login.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Login\\Login.cs",
+              "RelativeToolTip": "Login\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:50:56.595Z",
+              "WhenOpened": "2024-12-16T15:14:36.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Clientesmenu.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu clientes\\Clientesmenu.cs",
+              "RelativeDocumentMoniker": "Menu clientes\\Clientesmenu.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu clientes\\Clientesmenu.cs",
+              "RelativeToolTip": "Menu clientes\\Clientesmenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:14:30.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrosForm.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\RegistrosForm.cs",
+              "RelativeDocumentMoniker": "Menu funcionarios\\RegistrosForm.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\RegistrosForm.cs",
+              "RelativeToolTip": "Menu funcionarios\\RegistrosForm.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:13:58.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Clients.json",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\Clients.json",
+              "RelativeDocumentMoniker": "bin\\Debug\\Clients.json",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\Clients.json",
+              "RelativeToolTip": "bin\\Debug\\Clients.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-16T14:35:37.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Remove.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\Remove.cs",
+              "RelativeDocumentMoniker": "Metodos\\Remove.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\Remove.cs",
+              "RelativeToolTip": "Metodos\\Remove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:33:01.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ClientForm.cs",
+              "RelativeDocumentMoniker": "Menu funcionarios\\ClientForm.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ClientForm.cs [Design]",
+              "RelativeToolTip": "Menu funcionarios\\ClientForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:32:14.574Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registos.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\Registos.cs",
+              "RelativeDocumentMoniker": "Metodos\\Registos.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\Registos.cs",
+              "RelativeToolTip": "Metodos\\Registos.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAwwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:11:32.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataSaver.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\DataSaver.cs",
+              "RelativeDocumentMoniker": "Metodos\\DataSaver.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\DataSaver.cs",
+              "RelativeToolTip": "Metodos\\DataSaver.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:01:17.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Apartments.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Classes\\Apartments.cs",
-              "RelativeDocumentMoniker": "Classes\\Apartments.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Classes\\Apartments.cs",
-              "RelativeToolTip": "Classes\\Apartments.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Title": "DataLoader.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\DataLoader.cs",
+              "RelativeDocumentMoniker": "Metodos\\DataLoader.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\DataLoader.cs",
+              "RelativeToolTip": "Metodos\\DataLoader.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:50:50.086Z",
+              "WhenOpened": "2024-12-16T14:00:02.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginHandle.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\LoginHandle.cs",
+              "RelativeDocumentMoniker": "Metodos\\LoginHandle.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\LoginHandle.cs",
+              "RelativeToolTip": "Metodos\\LoginHandle.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:56:13.671Z",
               "EditorCaption": ""
             },
             {
@@ -84,86 +195,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Login\\Login.cs",
-              "RelativeDocumentMoniker": "Login\\Login.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Login\\Login.cs",
-              "RelativeToolTip": "Login\\Login.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAvwDAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:06:08.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestorReservas.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Classes\\GestorReservas.cs",
-              "RelativeDocumentMoniker": "Classes\\GestorReservas.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Classes\\GestorReservas.cs",
-              "RelativeToolTip": "Classes\\GestorReservas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:49:02.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterEmployeeForm.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\RegisterEmployeeForm.cs",
-              "RelativeDocumentMoniker": "Menu funcionarios\\RegisterEmployeeForm.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\RegisterEmployeeForm.cs",
-              "RelativeToolTip": "Menu funcionarios\\RegisterEmployeeForm.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwBgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:43:30.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApartmentForm.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ApartmentForm.cs",
-              "RelativeDocumentMoniker": "Menu funcionarios\\ApartmentForm.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ApartmentForm.cs",
-              "RelativeToolTip": "Menu funcionarios\\ApartmentForm.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAcwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T16:00:30.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApartmentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ApartmentForm.cs",
-              "RelativeDocumentMoniker": "Menu funcionarios\\ApartmentForm.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ApartmentForm.cs [Design]",
-              "RelativeToolTip": "Menu funcionarios\\ApartmentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T16:00:25.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\Form1.cs",
-              "RelativeDocumentMoniker": "Menu funcionarios\\Form1.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\Form1.cs [Design]",
-              "RelativeToolTip": "Menu funcionarios\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:59:40.629Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Login\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Login\\Login.cs",
               "RelativeDocumentMoniker": "Login\\Login.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\Ultima altera\u00E7\u00E3o\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Login\\Login.cs [Design]",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Login\\Login.cs [Design]",
               "RelativeToolTip": "Login\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:50:48.625Z"
+              "WhenOpened": "2024-11-13T15:50:48.625Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
