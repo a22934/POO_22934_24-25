@@ -6,10 +6,16 @@ using System.IO;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
-{
+{       /// <summary>
+        /// Classe estática responsável por carregar dados de arquivos JSON.
+        /// </summary>
     public static class DataLoader
     {
-        // Carrega a lista de clientes a partir do arquivo JSON
+        /// <summary>
+        /// Carrega a lista de clientes a partir do arquivo JSON.
+        /// </summary>
+        /// <param name="filePath">Caminho do arquivo JSON.</param>
+        /// <returns>Uma lista de objetos <see cref="Client"/>.</returns>
         public static List<Client> LoadClientsFromFile(string filePath)
         {
             if (File.Exists(filePath))
@@ -30,10 +36,14 @@ namespace WindowsFormsApp1
                 return new List<Client>(); // Retorna uma lista vazia se o arquivo não existir
             }
         }
-    
 
-    // Carrega a lista de apartamentos a partir do arquivo JSON
-    public static List<Apartment> LoadApartmentsFromFile(string filePath)
+
+        /// <summary>
+        /// Carrega a lista de apartamentos a partir do arquivo JSON.
+        /// </summary>
+        /// <param name="filePath">Caminho do arquivo JSON.</param>
+        /// <returns>Uma lista de objetos <see cref="Apartment"/>.</returns>
+        public static List<Apartment> LoadApartmentsFromFile(string filePath)
         {
             try
             {
@@ -50,7 +60,11 @@ namespace WindowsFormsApp1
             }
         }
 
-        // Carrega a lista de funcionários a partir do arquivo JSON
+        /// <summary>
+        /// Carrega a lista de funcionários a partir do arquivo JSON.
+        /// </summary>
+        /// <param name="filePath">Caminho do arquivo JSON.</param>
+        /// <returns>Uma lista de objetos <see cref="Funcionario"/>.</returns>
         public static List<Funcionario> LoadFuncionariosFromFile(string filePath)
         {
             try

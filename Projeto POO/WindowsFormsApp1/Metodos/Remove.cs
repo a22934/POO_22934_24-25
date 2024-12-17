@@ -6,10 +6,17 @@ using System.Linq;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
-{
+{       /// <summary>
+        /// Classe estática responsável por remover apartamentos e clientes.
+        /// </summary>
     public static class Remove
     {
-        // Método para remover um apartamento da lista e salvar as alterações no arquivo
+        /// <summary>
+        /// Método para remover um apartamento da lista e salvar as alterações no arquivo.
+        /// </summary>
+        /// <param name="apartments">Lista de apartamentos.</param>
+        /// <param name="filePath">Caminho do arquivo onde os apartamentos são salvos.</param>
+        /// <param name="selectedIndex">Índice do apartamento a ser removido.</param>
         public static void RemoveApartment(List<Apartment> apartments, string filePath, int selectedIndex)
         {
             try
@@ -42,7 +49,12 @@ namespace WindowsFormsApp1
             }
         }
 
-        // Método para remover um cliente da lista e salvar as alterações no arquivo
+        /// <summary>
+        /// Método para remover um cliente da lista e salvar as alterações no arquivo.
+        /// </summary>
+        /// <param name="clients">Lista de clientes.</param>
+        /// <param name="filePath">Caminho do arquivo onde os clientes são salvos.</param>
+        /// <param name="selectedIndex">Índice do cliente a ser removido.</param>
         public static void RemoveClient(List<Client> clients, string filePath, int selectedIndex)
         {
             try

@@ -5,13 +5,19 @@ using System.IO;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
-{
+{   /// <summary>
+    /// Formulário para exibir e gerir apartamentos.
+    /// </summary>
     public partial class ApartmentForm : Form
     {
         public List<Apartment> Apartments { get; set; } // Lista de apartamentos
         private readonly string filePath = "apartments.json"; // Caminho do arquivo JSON
         private bool IsFuncionario { get; set; } // Controle de visibilidade do botão para funcionários
-
+        /// <summary>
+        /// Inicializa uma nova instância da classe <see cref="ApartmentForm"/>.
+        /// </summary>
+        /// <param name="apartments">Lista de apartamentos.</param>
+        /// <param name="isFuncionario">Indica se o usuário é um funcionário.</param>
         public ApartmentForm(List<Apartment> apartments, bool isFuncionario)
         {
             InitializeComponent();
@@ -19,18 +25,20 @@ namespace WindowsFormsApp1
             IsFuncionario = isFuncionario; // Atribui o valor para saber se é funcionário
             dataGridViewApartments.Columns.Add("PrecoPorNoite", "Preço por Noite");
 
-            // Carrega os apartamentos diretamente usando DataLoader
+            // Carrega os apartamentos diretamente usando o ficheiro DataLoader
             Apartments = DataLoader.LoadApartmentsFromFile(filePath);
             // Exibe os apartamentos no DataGridView
             DisplayApartmentsInDataGridView();
-            // Se não for funcionário, esconde o botão de remoção
+            // Se não for funcionário, esconde o botão de remoção do apartamento
             if (!IsFuncionario)
             {
                 btnRemoveApartment.Visible = false;
             }
         }
 
-        // Exibe os apartamentos no DataGridView
+        /// <summary>
+        /// Exibe os apartamentos no DataGridView.
+        /// </summary>
         private void DisplayApartmentsInDataGridView()
         {
             dataGridViewApartments.Rows.Clear(); // Limpa as linhas do DataGridView antes de adicionar novas
@@ -42,7 +50,11 @@ namespace WindowsFormsApp1
             }
         }
 
-        // Evento de clique para o botão de remover apartamento
+        /// <summary>
+        /// Evento de clique para o botão de remover apartamento.
+        /// </summary>
+        /// <param name="sender">O objeto que gerou o evento.</param>
+        /// <param name="e">Os dados do evento.</param>
         private void btnRemoveApartment_Click(object sender, EventArgs e)
         {
             // Obtém o índice da linha selecionada

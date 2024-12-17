@@ -2,9 +2,11 @@
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
-{
+{       /// <summary>
+        /// Classe principal que contém o ponto de entrada da aplicação.
+        /// </summary>
     static class Program
-    {
+    {   
         [STAThread]
         static void Main()
         {
