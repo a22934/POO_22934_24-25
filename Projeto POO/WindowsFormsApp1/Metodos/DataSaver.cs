@@ -65,5 +65,25 @@ namespace WindowsFormsApp1
                 throw new Exception($"Erro ao salvar funcionários: {ex.Message}");
             }
         }
+
+        private const string caminhoArquivoReservas = "reservas.json";  // Caminho fixo para as reservas
+
+        // Método para salvar as reservas em um arquivo JSON
+        public static void SalvarReservas(List<Reserva> reservas)
+        {
+            try
+            {
+                // Serializa a lista de reservas em formato JSON
+                string json = JsonConvert.SerializeObject(reservas, Formatting.Indented);
+
+                // Escreve o JSON no arquivo
+                File.WriteAllText(caminhoArquivoReservas, json);
+            }
+            catch (Exception ex)
+            {
+                // Se ocorrer algum erro, você pode lançar uma exceção ou tratar da maneira que preferir
+                throw new Exception($"Erro ao salvar as reservas: {ex.Message}");
+            }
+        }
     }
 }

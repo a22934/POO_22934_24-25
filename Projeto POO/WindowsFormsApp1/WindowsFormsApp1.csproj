@@ -54,6 +54,19 @@
   <ItemGroup>
     <Compile Include="Classes\Funcionarios.cs" />
     <Compile Include="Classes\Pessoa.cs" />
+    <Compile Include="Menu clientes\CriarReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu clientes\CriarReserva.Designer.cs">
+      <DependentUpon>CriarReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu funcionarios\ConsultaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu funcionarios\ConsultaForm.Designer.cs">
+      <DependentUpon>ConsultaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\CriarReserva.cs" />
     <Compile Include="Metodos\DataLoader.cs" />
     <Compile Include="Metodos\DataSaver.cs" />
     <Compile Include="Metodos\LoginHandle.cs" />
@@ -71,7 +84,6 @@
     </Compile>
     <Compile Include="Classes\Apartments.cs" />
     <Compile Include="Classes\Client.cs" />
-    <Compile Include="Classes\GestorReservas.cs" />
     <Compile Include="Classes\Reserva.cs" />
     <Compile Include="Menu funcionarios\Form1.cs">
       <SubType>Form</SubType>

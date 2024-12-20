@@ -1,25 +1,23 @@
-﻿using ClientManagement_OOP;
-using System;
+﻿using System;
 
 public class Reserva
 {
-    public int Id { get; set; }
-    public Client Cliente { get; set; } // O cliente que fez a reserva
-    public Apartment Apartamento { get; set; } // O apartamento reservado
-    public DateTime CheckInDate { get; set; }
-    public DateTime CheckOutDate { get; set; }
-    public bool IsCheckedIn { get; set; } = false;
-    public bool IsCheckedOut { get; set; } = false;
+    public string NomeCliente { get; set; }
+    public Apartment Apartamento { get; set; }
+    public DateTime DataInicio { get; set; }
+    public DateTime DataFim { get; set; }
 
-    public Reserva(int id, Client cliente, Apartment apartamento, DateTime checkIn, DateTime checkOut)
+    public Reserva(string nomeCliente, Apartment apartamento, DateTime dataInicio, DateTime dataFim)
     {
-        Id = id;
-        Cliente = cliente;
+        NomeCliente = nomeCliente;
         Apartamento = apartamento;
-        CheckInDate = checkIn;
-        CheckOutDate = checkOut;
+        DataInicio = dataInicio;
+        DataFim = dataFim;
     }
 
-    public void CheckIn() => IsCheckedIn = true;
-    public void CheckOut() => IsCheckedOut = true;
+    public override string ToString()
+    {
+        return $"{NomeCliente} - {Apartamento.Name} - {DataInicio.ToShortDateString()} a {DataFim.ToShortDateString()}";
+    }
 }
+

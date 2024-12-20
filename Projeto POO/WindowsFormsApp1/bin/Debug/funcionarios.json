@@ -3,6 +3,10 @@
     "NumeroFuncionario": "1234",
     "Nome": "Adelaide",
     "Password": "12345"
+  },
+  {
+    "NumeroFuncionario": "12345",
+    "Nome": "paulo",
+    "Password": "1234"
   }
- 
 ]

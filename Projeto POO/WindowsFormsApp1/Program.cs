@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Windows.Forms;
+using ClientManagement_OOP;
 
 namespace WindowsFormsApp1
-{       /// <summary>
-        /// Classe principal que contém o ponto de entrada da aplicação.
-        /// </summary>
+{
+    /// <summary>
+    /// Classe principal que contém o ponto de entrada da aplicação.
+    /// </summary>
     static class Program
-    {   
+    {
         [STAThread]
         static void Main()
         {
@@ -29,7 +31,8 @@ namespace WindowsFormsApp1
                 else
                 {
                     // Se for cliente, abre o menu de clientes
-                    ClientesMenu clientesMenu = new ClientesMenu(loginForm.Apartments); // Passa a lista de apartamentos
+                    Client loggedClient = loginForm.LoggedClient; // Obtém o cliente logado
+                    ClientesMenu clientesMenu = new ClientesMenu(loginForm.Apartments, loggedClient); // Passa a lista de apartamentos e o cliente logado
                     Application.Run(clientesMenu); // Usa Application.Run uma vez aqui para rodar o loop de eventos
                 }
             }

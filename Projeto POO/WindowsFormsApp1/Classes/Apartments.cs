@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class Apartment
 {
@@ -30,32 +31,13 @@ public class Apartment
         AdditionalFeatures = additionalFeatures;
         PrecoPorNoite = precoPorNoite;
     }
-    /// <summary>
-    /// Verifica se o apartamento está disponível para um periodo especifico.
-    /// </summary>
-    /// <param name="inicio">Data de início do período.</param>
-    /// <param name="fim">Data de fim do período.</param>
-    /// <returns>Retorna <c>true</c> se o apartamento estiver disponível; caso contrário, <c>false</c>.</returns>
- 
-    public bool IsDisponivel(DateTime inicio, DateTime fim)
+    
+    public bool IsDisponivel(DateTime inicio, DateTime fim, List<Reserva> reservas)
     {
-        foreach (var periodo in PeriodosIndisponiveis)
-        {
-            // Se houver interseção entre as datas solicitadas e um período de indisponibilidade, retorna falso
-            if (inicio < periodo.fim && fim > periodo.inicio)
-                return false;
-        }
-        return true;
-    }
-
-    /// <summary>
-    /// Marca o apartamento como indisponivel para um período específico.
-    /// </summary>
-    /// <param name="inicio">Data de inicio </param>
-    /// <param name="fim">Data do fim </param>
-    public void MarcarIndisponivel(DateTime inicio, DateTime fim)
-    {
-        PeriodosIndisponiveis.Add((inicio, fim));
+        return !reservas.Any(r => r.Apartamento.Name == this.Name &&
+                                  ((inicio >= r.DataInicio && inicio <= r.DataFim) ||
+                                   (fim >= r.DataInicio && fim <= r.DataFim) ||
+                                   (inicio <= r.DataInicio && fim >= r.DataFim)));
     }
     /// <summary>
     /// Retorna uma string que representa o apartamento.

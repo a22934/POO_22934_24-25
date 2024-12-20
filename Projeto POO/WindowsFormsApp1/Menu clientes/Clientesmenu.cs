@@ -1,36 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using ClientManagement_OOP;
 
 namespace WindowsFormsApp1
-{       /// <summary>
-        /// Formulário de menu para clientes.
-        /// </summary>
+{
     public partial class ClientesMenu : Form
     {
-        /// <summary>
-        /// Define a lista de apartamentos.
-        /// </summary>
         public List<Apartment> Apartments { get; set; }
-        /// <summary>
-        /// Inicializa uma nova instância da classe <see cref="ClientesMenu"/>.
-        /// </summary>
-        /// <param name="apartments">Lista de apartamentos.</param>
-        public ClientesMenu(List<Apartment> apartments)
+        private List<Reserva> reservas;
+        private Client loggedClient;
+
+        public ClientesMenu(List<Apartment> apartments, Client loggedClient)
         {
             InitializeComponent();
-            this.Apartments = apartments ?? new List<Apartment>(); // Inicializa com uma lista vazia se null
+            this.Apartments = apartments ?? new List<Apartment>();
+            this.reservas = DataLoader.CarregarReservas();
+            this.loggedClient = loggedClient;
         }
-        /// <summary>
-        /// Manipula o evento de clique do botão para listar apartamentos.
-        /// </summary>
-        /// <param name="sender">O objeto que gerou o evento.</param>
-        /// <param name="e">Os dados do evento.</param>
+
         private void btnListApartments_Click(object sender, EventArgs e)
         {
-            // Abre o ApartmentForm e passa a lista de apartamentos
             ApartmentForm apartmentForm = new ApartmentForm(this.Apartments, false);
             apartmentForm.ShowDialog();
+        }
+
+        private void btnCriarReserva_Click(object sender, EventArgs e)
+        {
+            CriarReservaForm criarReservaForm = new CriarReservaForm(this.Apartments, this.reservas, this.loggedClient);
+            criarReservaForm.ShowDialog();
         }
     }
 }

@@ -4,44 +4,53 @@ using System.Windows.Forms;
 using ClientManagement_OOP;
 
 namespace WindowsFormsApp1
-{   /// <summary>
-    /// Formulário de login para clientes e funcionários.
-    /// </summary>
+{
     public partial class LoginForm : Form
     {
-        public bool IsFuncionario { get; set; } // Adiciona a propriedade para identificar o tipo de utilizador
-        public List<Client> Clients { get; set; }
-        public List<Funcionario> Funcionarios { get; set; }
-        public List<Apartment> Apartments { get; set; }
-        /// <summary>
-        /// Inicializa uma nova instância da classe <see cref="LoginForm"/>.
-        /// </summary>
+        public bool IsFuncionario { get; set; } // Acessor set público
+        public Client LoggedClient { get; private set; } // Propriedade para armazenar o cliente logado
+        public List<Apartment> Apartments { get; private set; }
+        public List<Client> Clients { get; set; } // Acessor set público
+
         public LoginForm()
         {
             InitializeComponent();
-            Clients = DataLoader.LoadClientsFromFile("Clients.json");
-            Funcionarios = DataLoader.LoadFuncionariosFromFile("funcionarios.json");
-            Apartments = DataLoader.LoadApartmentsFromFile("Apartments.json"); // Carrega a lista de apartamentos
+            // Inicialize as listas de apartamentos e clientes aqui, se necessário
+            LoadData();
         }
-        /// <summary>
-        /// Manipula o evento de clique do botão de login.
-        /// </summary>
-        /// <param name="sender">O objeto que gerou o evento.</param>
-        /// <param name="e">Os dados do evento.</param>
+
+        private void LoadData()
+        {
+            string apartmentsFilePath = "Apartments.json";
+            string clientsFilePath = "Clients.json";
+
+            Apartments = DataLoader.LoadApartmentsFromFile(apartmentsFilePath);
+            Clients = DataLoader.LoadClientsFromFile(clientsFilePath);
+        }
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text;
             string password = txtPassword.Text;
-            LoginHandler.HandleLogin(username, password, Funcionarios, Clients, this);
+
+            // Supondo que você tenha uma lista de funcionários e clientes carregada
+            List<Funcionario> funcionarios = DataLoader.LoadFuncionarios();
+
+
+            // Manipula o login
+            LoginHandler.HandleLogin(username, password, funcionarios, Clients, this);
         }
-        /// <summary>
-        /// Manipula o evento de clique do botão de registro.
-        /// </summary>
-        /// <param name="sender">O objeto que gerou o evento.</param>
-        /// <param name="e">Os dados do evento.</param>
+
         private void btnRegister_Click(object sender, EventArgs e)
         {
+            // Manipula o registro
             LoginHandler.HandleRegister(this);
+        }
+
+        // Método para definir o cliente logado
+        public void SetLoggedClient(Client client)
+        {
+            this.LoggedClient = client;
         }
     }
 }

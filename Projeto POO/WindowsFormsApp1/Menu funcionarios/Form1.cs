@@ -7,6 +7,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+       
         private List<Client> clients { get; set; } = new List<Client>(); // Adiciona a lista de clientes
         public List<Apartment> Apartments { get; set; } = new List<Apartment>(); // Adiciona a lista de apartamentos
         /// <summary>
@@ -15,6 +16,7 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+
         }
 
         /// <summary>
@@ -52,6 +54,11 @@ namespace WindowsFormsApp1
         {
             ApartmentForm apartmentForm = new ApartmentForm(this.Apartments, true); // Passa a lista de apartamentos para o construtor
             apartmentForm.ShowDialog();
+        }
+        private void btnConsultas_Click(object sender, EventArgs e)
+        {
+            ConsultaForm consultaForm = new ConsultaForm();
+            consultaForm.ShowDialog();
         }
     }
 }

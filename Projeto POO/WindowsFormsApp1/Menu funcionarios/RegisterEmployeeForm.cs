@@ -30,7 +30,7 @@ namespace WindowsFormsApp1
         /// <param name="e">Os dados do evento.</param>
         private void btnAddEmployee_Click(object sender, EventArgs e)
         {
-            
+
             string nome = txtNome.Text; // Obtém o nome do funcionário
             string numeroFuncionario = txtNumeroFuncionario.Text;// Obtém o número do funcionário
             string password = txtPassword.Text;// Obtém a senha do funcionário
@@ -39,7 +39,6 @@ namespace WindowsFormsApp1
             Registos.RegisterEmployee(Funcionarios, filePath, nome, numeroFuncionario, password);
 
             // Fecha o formulário após registar com sucesso
-            this.DialogResult = DialogResult.OK;
             this.Close();
         }
     }

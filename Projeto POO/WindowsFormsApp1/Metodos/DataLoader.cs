@@ -6,9 +6,10 @@ using System.IO;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
-{       /// <summary>
-        /// Classe estática responsável por carregar dados de arquivos JSON.
-        /// </summary>
+{
+    /// <summary>
+    /// Classe estática responsável por carregar dados de arquivos JSON.
+    /// </summary>
     public static class DataLoader
     {
         /// <summary>
@@ -37,7 +38,6 @@ namespace WindowsFormsApp1
             }
         }
 
-
         /// <summary>
         /// Carrega a lista de apartamentos a partir do arquivo JSON.
         /// </summary>
@@ -63,6 +63,26 @@ namespace WindowsFormsApp1
         /// <summary>
         /// Carrega a lista de funcionários a partir do arquivo JSON.
         /// </summary>
+        /// <returns>Uma lista de objetos <see cref="Funcionario"/>.</returns>
+        public static List<Funcionario> LoadFuncionarios()
+        {
+            string filePath = "Funcionarios.json";
+            return LoadFuncionariosFromFile(filePath);
+        }
+
+        /// <summary>
+        /// Carrega a lista de clientes a partir do arquivo JSON.
+        /// </summary>
+        /// <returns>Uma lista de objetos <see cref="Client"/>.</returns>
+        public static List<Client> LoadClients()
+        {
+            string filePath = "Clients.json";
+            return LoadClientsFromFile(filePath);
+        }
+
+        /// <summary>
+        /// Carrega a lista de funcionários a partir do arquivo JSON.
+        /// </summary>
         /// <param name="filePath">Caminho do arquivo JSON.</param>
         /// <returns>Uma lista de objetos <see cref="Funcionario"/>.</returns>
         public static List<Funcionario> LoadFuncionariosFromFile(string filePath)
@@ -81,5 +101,20 @@ namespace WindowsFormsApp1
                 throw new Exception($"Erro ao carregar funcionários: {ex.Message}");
             }
         }
+
+        private const string caminhoArquivoReservas = "reservas.json";  // Caminho fixo para as reservas
+
+        // Método para carregar reservas uma única vez
+        public static List<Reserva> CarregarReservas()
+        {
+            if (!File.Exists(caminhoArquivoReservas))
+            {
+                return new List<Reserva>();  // Retorna uma lista vazia se o arquivo não existir
+            }
+
+            string json = File.ReadAllText(caminhoArquivoReservas);
+            return JsonConvert.DeserializeObject<List<Reserva>>(json) ?? new List<Reserva>();
+        }
     }
+
 }

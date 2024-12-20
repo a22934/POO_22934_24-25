@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\metodos\\criarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:metodos\\criarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\metodos\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:metodos\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\metodos\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:metodos\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\menu clientes\\clientesmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu clientes\\clientesmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\metodos\\loginhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:metodos\\loginhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\menu funcionarios\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\menu funcionarios\\consultaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\consultaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\menu funcionarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\reservas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\reservas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\menu clientes\\criarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu clientes\\criarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\Clients.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\Clients.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\funcionarios.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\funcionarios.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,28 +62,181 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "DataSaver.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\DataSaver.cs",
+              "RelativeDocumentMoniker": "Metodos\\DataSaver.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\DataSaver.cs",
+              "RelativeToolTip": "Metodos\\DataSaver.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:34:15.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DataLoader.cs",
               "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\DataLoader.cs",
               "RelativeDocumentMoniker": "Metodos\\DataLoader.cs",
               "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\DataLoader.cs",
               "RelativeToolTip": "Metodos\\DataLoader.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA5wD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAQwHUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T16:39:26.198Z",
+              "WhenOpened": "2024-12-20T17:30:43.677Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientForm.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ClientForm.cs",
+              "RelativeDocumentMoniker": "Menu funcionarios\\ClientForm.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ClientForm.cs",
+              "RelativeToolTip": "Menu funcionarios\\ClientForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:30:32.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\Form1.cs",
+              "RelativeDocumentMoniker": "Menu funcionarios\\Form1.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\Form1.cs",
+              "RelativeToolTip": "Menu funcionarios\\Form1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:10:06.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsultaForm.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ConsultaForm.cs",
+              "RelativeDocumentMoniker": "Menu funcionarios\\ConsultaForm.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ConsultaForm.cs",
+              "RelativeToolTip": "Menu funcionarios\\ConsultaForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:09:31.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginHandle.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\LoginHandle.cs",
+              "RelativeDocumentMoniker": "Metodos\\LoginHandle.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\LoginHandle.cs",
+              "RelativeToolTip": "Metodos\\LoginHandle.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:05:13.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "reservas.json",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\reservas.json",
+              "RelativeDocumentMoniker": "bin\\Debug\\reservas.json",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\reservas.json",
+              "RelativeToolTip": "bin\\Debug\\reservas.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T15:04:00.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "Login\\Login.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Login\\Login.cs",
+              "RelativeToolTip": "Login\\Login.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:03:23.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Clientesmenu.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu clientes\\Clientesmenu.cs",
+              "RelativeDocumentMoniker": "Menu clientes\\Clientesmenu.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu clientes\\Clientesmenu.cs",
+              "RelativeToolTip": "Menu clientes\\Clientesmenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:03:20.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CriarReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\CriarReserva.cs",
+              "RelativeDocumentMoniker": "Metodos\\CriarReserva.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\CriarReserva.cs",
+              "RelativeToolTip": "Metodos\\CriarReserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:03:12.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CriarReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu clientes\\CriarReserva.cs",
+              "RelativeDocumentMoniker": "Menu clientes\\CriarReserva.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu clientes\\CriarReserva.cs",
+              "RelativeToolTip": "Menu clientes\\CriarReserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:02:59.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "funcionarios.json",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\funcionarios.json",
+              "RelativeDocumentMoniker": "bin\\Debug\\funcionarios.json",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\funcionarios.json",
+              "RelativeToolTip": "bin\\Debug\\funcionarios.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T14:13:14.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Clients.json",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\Clients.json",
+              "RelativeDocumentMoniker": "bin\\Debug\\Clients.json",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\Clients.json",
+              "RelativeToolTip": "bin\\Debug\\Clients.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T14:13:11.366Z"
             }
           ]
         }
