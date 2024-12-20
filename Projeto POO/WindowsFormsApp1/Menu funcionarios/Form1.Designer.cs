@@ -2,15 +2,17 @@
 {
     partial class Form1
     {
-        /// <summary>
-        /// Variável necessária para o Designer.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.Button btnClients;
+        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Button btnApartments;
+        private System.Windows.Forms.Button btnConsultas;
+        private System.Windows.Forms.Button btnCheckInCheckOut;
 
         /// <summary>
-        /// Limpar os recursos que estão sendo usados.
+        /// Limpa todos os recursos em uso.
         /// </summary>
-        /// <param name="disposing">true se os recursos gerenciados devem ser descartados; caso contrário, false.</param>
+        /// <param name="disposing">Determina se os recursos gerenciados devem ser descartados.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,10 +22,11 @@
             base.Dispose(disposing);
         }
 
-        #region Código gerado pelo Designer de Componentes
+        #region Código gerado pelo Windows Forms Designer
 
         /// <summary>
-        /// Método necessário para suporte ao Designer.
+        /// Método necessário para suportar o Designer - não modifique
+        /// o conteúdo deste método com o editor de código.
         /// </summary>
         private void InitializeComponent()
         {
@@ -31,13 +34,14 @@
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnApartments = new System.Windows.Forms.Button();
             this.btnConsultas = new System.Windows.Forms.Button();
+            this.btnCheckInCheckOut = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnClients
             // 
-            this.btnClients.Location = new System.Drawing.Point(30, 30);
+            this.btnClients.Location = new System.Drawing.Point(12, 12);
             this.btnClients.Name = "btnClients";
-            this.btnClients.Size = new System.Drawing.Size(150, 50);
+            this.btnClients.Size = new System.Drawing.Size(120, 40);
             this.btnClients.TabIndex = 0;
             this.btnClients.Text = "Clientes";
             this.btnClients.UseVisualStyleBackColor = true;
@@ -45,9 +49,9 @@
             // 
             // btnRegister
             // 
-            this.btnRegister.Location = new System.Drawing.Point(30, 100);
+            this.btnRegister.Location = new System.Drawing.Point(12, 58);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(150, 50);
+            this.btnRegister.Size = new System.Drawing.Size(120, 40);
             this.btnRegister.TabIndex = 1;
             this.btnRegister.Text = "Registros";
             this.btnRegister.UseVisualStyleBackColor = true;
@@ -55,9 +59,9 @@
             // 
             // btnApartments
             // 
-            this.btnApartments.Location = new System.Drawing.Point(30, 170);
+            this.btnApartments.Location = new System.Drawing.Point(12, 104);
             this.btnApartments.Name = "btnApartments";
-            this.btnApartments.Size = new System.Drawing.Size(150, 50);
+            this.btnApartments.Size = new System.Drawing.Size(120, 40);
             this.btnApartments.TabIndex = 2;
             this.btnApartments.Text = "Apartamentos";
             this.btnApartments.UseVisualStyleBackColor = true;
@@ -65,33 +69,37 @@
             // 
             // btnConsultas
             // 
-            this.btnConsultas.Location = new System.Drawing.Point(30, 240);
+            this.btnConsultas.Location = new System.Drawing.Point(12, 150);
             this.btnConsultas.Name = "btnConsultas";
-            this.btnConsultas.Size = new System.Drawing.Size(150, 50);
+            this.btnConsultas.Size = new System.Drawing.Size(120, 40);
             this.btnConsultas.TabIndex = 3;
             this.btnConsultas.Text = "Consultas";
             this.btnConsultas.UseVisualStyleBackColor = true;
             this.btnConsultas.Click += new System.EventHandler(this.btnConsultas_Click);
             // 
+            // btnCheckInCheckOut
+            // 
+            this.btnCheckInCheckOut.Location = new System.Drawing.Point(12, 196);
+            this.btnCheckInCheckOut.Name = "btnCheckInCheckOut";
+            this.btnCheckInCheckOut.Size = new System.Drawing.Size(120, 40);
+            this.btnCheckInCheckOut.TabIndex = 4;
+            this.btnCheckInCheckOut.Text = "Check-in/Check-out";
+            this.btnCheckInCheckOut.UseVisualStyleBackColor = true;
+            this.btnCheckInCheckOut.Click += new System.EventHandler(this.btnCheckInCheckOut_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(150, 300);
+            this.Controls.Add(this.btnCheckInCheckOut);
             this.Controls.Add(this.btnConsultas);
             this.Controls.Add(this.btnApartments);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnClients);
             this.Name = "Form1";
-            this.Text = "Menu Principal";
+            this.Text = "Form1";
             this.ResumeLayout(false);
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnClients;
-        private System.Windows.Forms.Button btnRegister;
-        private System.Windows.Forms.Button btnApartments;
-        private System.Windows.Forms.Button btnConsultas;
     }
 }

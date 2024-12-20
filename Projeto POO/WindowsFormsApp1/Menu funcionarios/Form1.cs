@@ -7,58 +7,66 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-       
         private List<Client> clients { get; set; } = new List<Client>(); // Adiciona a lista de clientes
         public List<Apartment> Apartments { get; set; } = new List<Apartment>(); // Adiciona a lista de apartamentos
+        private List<Reserva> reservas = new List<Reserva>(); // Adiciona a lista de reservas
+
         /// <summary>
         /// Inicializa uma nova instância da classe <see cref="Form1"/>.
         /// </summary>
         public Form1()
         {
             InitializeComponent();
-
+            reservas = DataLoader.CarregarReservas(); // Carregar reservas do arquivo
         }
 
         /// <summary>
         /// Evento para o botão "Clientes".
         /// </summary>
-        /// <param name="sender">O objeto que gerou o evento.</param>
-        /// <param name="e">Os dados do evento.</param>
         private void btnClients_Click(object sender, EventArgs e)
         {
             ClientForm clientForm = new ClientForm(this.clients);
             clientForm.ShowDialog();
         }
+
         /// <summary>
         /// Evento para o botão "Registros".
         /// </summary>
-        /// <param name="sender">O objeto que gerou o evento.</param>
-        /// <param name="e">Os dados do evento.</param>
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            // Cria uma instância do formulário RegistrosForm
-            RegistrosForm registrosForm = new RegistrosForm 
+            RegistrosForm registrosForm = new RegistrosForm
             {
-                Clients = this.clients // Passa a lista de clientes do Form1
+                Clients = this.clients
             };
 
-            // Abre o formulário
             registrosForm.ShowDialog();
         }
+
         /// <summary>
         /// Evento para o botão "Apartamentos".
         /// </summary>
-        /// <param name="sender">O objeto que gerou o evento.</param>
-        /// <param name="e">Os dados do evento.</param>
         private void btnApartments_Click(object sender, EventArgs e)
         {
-            ApartmentForm apartmentForm = new ApartmentForm(this.Apartments, true); // Passa a lista de apartamentos para o construtor
+            ApartmentForm apartmentForm = new ApartmentForm(this.Apartments, true);
             apartmentForm.ShowDialog();
         }
+
+        /// <summary>
+        /// Evento para o botão "Consultas".
+        /// </summary>
         private void btnConsultas_Click(object sender, EventArgs e)
         {
             ConsultaForm consultaForm = new ConsultaForm();
             consultaForm.ShowDialog();
+        }
+
+        /// <summary>
+        /// Evento para o botão "Check-in and Check-out".
+        /// </summary>
+        private void btnCheckInCheckOut_Click(object sender, EventArgs e)
+        {
+            CheckInCheckOutForm checkInCheckOutForm = new CheckInCheckOutForm(reservas);
+            checkInCheckOutForm.ShowDialog();
         }
     }
 }

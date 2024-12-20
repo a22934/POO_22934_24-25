@@ -60,12 +60,19 @@
     <Compile Include="Menu clientes\CriarReserva.Designer.cs">
       <DependentUpon>CriarReserva.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu funcionarios\CheckInCheckOutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu funcionarios\CheckInCheckOutForm.Designer.cs">
+      <DependentUpon>CheckInCheckOutForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu funcionarios\ConsultaForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu funcionarios\ConsultaForm.Designer.cs">
       <DependentUpon>ConsultaForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Metodos\Checks.cs" />
     <Compile Include="Metodos\CriarReserva.cs" />
     <Compile Include="Metodos\DataLoader.cs" />
     <Compile Include="Metodos\DataSaver.cs" />

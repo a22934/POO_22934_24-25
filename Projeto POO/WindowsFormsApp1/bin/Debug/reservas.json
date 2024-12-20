@@ -1,44 +1,6 @@
 [
   {
-    "NomeCliente": "Nome do Cliente",
-    "Apartamento": {
-      "Name": "mare",
-      "Location": "faro",
-      "Typology": "t5",
-      "PropertyType": "moradia",
-      "AdditionalFeatures": "",
-      "PrecoPorNoite": "120"
-    },
-    "DataInicio": "2025-01-02T14:42:21",
-    "DataFim": "2025-03-27T14:42:21"
-  },
-  {
-    "NomeCliente": "joaquim",
-    "Apartamento": {
-      "Name": "mare",
-      "Location": "faro",
-      "Typology": "t5",
-      "PropertyType": "moradia",
-      "AdditionalFeatures": "",
-      "PrecoPorNoite": "120"
-    },
-    "DataInicio": "2024-12-20T15:01:55.4521941+00:00",
-    "DataFim": "2024-12-23T15:01:55"
-  },
-  {
-    "NomeCliente": "alberto",
-    "Apartamento": {
-      "Name": "mare",
-      "Location": "faro",
-      "Typology": "t5",
-      "PropertyType": "moradia",
-      "AdditionalFeatures": "",
-      "PrecoPorNoite": "120"
-    },
-    "DataInicio": "2024-12-24T15:02:30",
-    "DataFim": "2024-12-25T15:02:30"
-  },
-  {
+    "Id": 0,
     "NomeCliente": "alberto",
     "Apartamento": {
       "Name": "mare",
@@ -49,6 +11,9 @@
       "PrecoPorNoite": "120"
     },
     "DataInicio": "2026-07-16T17:42:06",
-    "DataFim": "2030-07-25T17:42:06"
+    "DataFim": "2030-07-25T17:42:06",
+    "DataCheckIn": "2024-12-20T23:23:42.7194124+00:00",
+    "DataCheckOut": "2024-12-20T23:22:43.512897+00:00",
+    "IsCheckedIn": true
   }
 ]
