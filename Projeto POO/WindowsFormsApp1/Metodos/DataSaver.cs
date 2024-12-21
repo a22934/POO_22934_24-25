@@ -67,8 +67,11 @@ namespace WindowsFormsApp1
         }
 
         private const string caminhoArquivoReservas = "reservas.json";  // Caminho fixo para as reservas
+        /// <summary>
+        /// Salva a lista de reservas no arquivo JSON.
+        /// </summary>
+        /// <param name="reservas">Lista de reservas a ser salva.</param>
 
-        // Método para salvar as reservas em um arquivo JSON
         public static void SalvarReservas(List<Reserva> reservas)
         {
             try
@@ -81,7 +84,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception ex)
             {
-                // Se ocorrer algum erro, você pode lançar uma exceção ou tratar da maneira que preferir
+                // Em caso de erro, exibe uma mensagem de erro
                 throw new Exception($"Erro ao salvar as reservas: {ex.Message}");
             }
         }

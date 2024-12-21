@@ -104,7 +104,13 @@ namespace WindowsFormsApp1
 
         private const string caminhoArquivoReservas = "reservas.json";  // Caminho fixo para as reservas
 
-        // Método para carregar reservas uma única vez
+        /// <summary>
+        /// Carrega as reservas a partir de um arquivo JSON.
+        /// </summary>
+        /// <returns>
+        /// Uma lista de reservas carregada do arquivo. Retorna uma lista vazia
+        /// se o arquivo não existir ou se não houver reservas armazenadas.
+        /// </returns>
         public static List<Reserva> CarregarReservas()
         {
             if (!File.Exists(caminhoArquivoReservas))

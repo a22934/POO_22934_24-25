@@ -4,14 +4,16 @@ using System.Linq;
 
 public class Apartment
 {
-    public string Name { get; set; }
-    public string Location { get; set; }
-    public string Typology { get; set; }
-    public string PropertyType { get; set; }
-    public string AdditionalFeatures { get; set; }
-    public string PrecoPorNoite { get; set; }
-    
-    // Lista para armazenar períodos de indisponibilidade (check-ins e check-outs)
+    public string Name { get; set; }   //Obtem ou define o nome do apartamento
+    public string Location { get; set; } //Obtem ou define a localização do apartamento
+    public string Typology { get; set; } //Obtem ou define a tipologia do apartamento
+    public string PropertyType { get; set; } //Obtem ou define o tipo de propriedade do apartamento
+    public string AdditionalFeatures { get; set; } //Obtem ou define as características adicionais do apartamento
+    public string PrecoPorNoite { get; set; } //Obtem ou define o preço por noite do apartamento
+
+    /// <summary>
+    /// Lista de períodos de indisponibilidade do apartamento (check-ins e check-outs).
+    /// </summary>
     private List<(DateTime inicio, DateTime fim)> PeriodosIndisponiveis { get; set; } = new List<(DateTime, DateTime)>();
     /// <summary>
     /// Inicializa uma nova instância da classe <see cref="Apartment"/>.
@@ -31,7 +33,13 @@ public class Apartment
         AdditionalFeatures = additionalFeatures;
         PrecoPorNoite = precoPorNoite;
     }
-    
+    /// <summary>
+    /// Verifica se o apartamento está disponível para o período escolhido.
+    /// </summary>
+    /// <param name="inicio">Data de início do período.</param>
+    /// <param name="fim">Data de fim do período.</param>
+    /// <param name="reservas">Lista de reservas existentes.</param>
+    /// <returns>Verdadeiro se o apartamento estiver disponível; caso contrário, falso.</returns>
     public bool IsDisponivel(DateTime inicio, DateTime fim, List<Reserva> reservas)
     {
         return !reservas.Any(r => r.Apartamento.Name == this.Name &&

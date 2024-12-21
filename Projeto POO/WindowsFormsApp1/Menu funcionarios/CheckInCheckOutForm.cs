@@ -8,24 +8,34 @@ namespace WindowsFormsApp1
 {
     public partial class CheckInCheckOutForm : Form
     {
-        private List<Reserva> reservas;
-
+        private List<Reserva> reservas; // Lista de reservas
+        /// <summary>
+        /// Inicializa uma nova instância do formulário <see cref="CheckInCheckOutForm"/>.
+        /// </summary>
+        /// <param name="reservas">Lista de reservas para gerir.</param>
         public CheckInCheckOutForm(List<Reserva> reservas)
         {
-            InitializeComponent();
-            this.reservas = reservas ?? new List<Reserva>();
-            LoadReservas();
+            InitializeComponent(); 
+            this.reservas = reservas ?? new List<Reserva>(); // Define a lista de reservas
+            LoadReservas(); // Carrega as reservas no DataGridView
         }
-
+        /// <summary>
+        /// Carrega as reservas no DataGridView para exibir.
+        /// </summary>
         private void LoadReservas()
         {
-            dgvReservas.DataSource = null;
-            dgvReservas.DataSource = reservas;
+            dgvReservas.DataSource = null; // Limpa a fonte de dados
+            dgvReservas.DataSource = reservas; // Define a lista de reservas como fonte de dados
         }
-
+        /// <summary>
+        /// Evento acionado ao clicar no botão "Check-In".
+        /// Realiza o check-in para a reserva selecionada.
+        /// </summary>
+        /// <param name="sender">Objeto que disparou o evento.</param>
+        /// <param name="e">Dados do evento.</param>
         private void btnCheckIn_Click(object sender, EventArgs e)
         {
-            if (dgvReservas.SelectedRows.Count > 0)
+            if (dgvReservas.SelectedRows.Count > 0) 
             {
                 int reservaId = Convert.ToInt32(dgvReservas.SelectedRows[0].Cells["Id"].Value);
 
@@ -54,7 +64,12 @@ namespace WindowsFormsApp1
             }
         }
 
-
+        /// <summary>
+        /// Evento acionado ao clicar no botão "Check-Out".
+        /// Realiza o check-out para a reserva selecionada.
+        /// </summary>
+        /// <param name="sender">Objeto que disparou o evento.</param>
+        /// <param name="e">Dados do evento.</param>
         private void btnCheckOut_Click(object sender, EventArgs e)
         {
             if (dgvReservas.SelectedRows.Count > 0)

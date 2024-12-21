@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 namespace ClientManagement_OOP
-{
+{   
     public class Funcionario : Pessoa
     {
-        public string NumeroFuncionario { get; set; }
+        public string NumeroFuncionario { get; set; } // Número do funcionário
         /// <summary>
         /// Inicializa uma nova instância da classe <see cref="Funcionario"/>.
         /// </summary>

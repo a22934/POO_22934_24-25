@@ -8,7 +8,11 @@ namespace WindowsFormsApp1
 {
     public static class Checks
     {
-
+        /// <summary>
+        /// Realiza o Check-in de uma reserva, marcando a data e alterando o estado da reserva.
+        /// </summary>
+        /// <param name="reserva">A reserva para a qual o check-in será realizado.</param>
+        /// <param name="reservas">A lista de reservas atual, usada para persistência.</param>
         public static void RealizarCheckIn(Reserva reserva, List<Reserva> reservas)
         {
             if (reserva != null && !reserva.IsCheckedIn)
@@ -22,7 +26,11 @@ namespace WindowsFormsApp1
                 MessageBox.Show("A reserva já está com check-in ou não foi encontrada.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        /// <summary>
+        /// Realiza o Check-out de uma reserva, marcando a data e alterando o estado da reserva.
+        /// </summary>
+        /// <param name="reserva">A reserva para a qual o check-out será realizado.</param>
+        /// <param name="reservas">A lista de reservas atual, usada para persistência.</param>
         public static void RealizarCheckOut(Reserva reserva, List<Reserva> reservas)
         {
             if (reserva != null && reserva.IsCheckedIn)

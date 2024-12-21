@@ -4,8 +4,8 @@ namespace ClientManagement_OOP
 {
     public class Client : Pessoa
     {
-        public string NIF { get; set; }
-        public string Contact { get; set; }
+        public string NIF { get; set; } // Nif do cliente
+        public string Contact { get; set; } // Contacto do cliente
         /// <summary>
         /// Inicializa uma nova instância da classe <see cref="Client"/>.
         /// </summary>

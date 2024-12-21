@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
     {
         public List<Apartment> Apartments { get; set; } // Lista de apartamentos
         private readonly string filePath = "apartments.json"; // Caminho do arquivo JSON
-        private bool IsFuncionario { get; set; } // Controle de visibilidade do botão para funcionários
+        private bool IsFuncionario { get; set; } // Indica se o usuário é um funcionário
         /// <summary>
         /// Inicializa uma nova instância da classe <see cref="ApartmentForm"/>.
         /// </summary>
@@ -22,14 +22,14 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             Apartments = apartments;
-            IsFuncionario = isFuncionario; // Atribui o valor para saber se é funcionário
+            IsFuncionario = isFuncionario; // Define se o usuário é um funcionário
             dataGridViewApartments.Columns.Add("PrecoPorNoite", "Preço por Noite");
 
-            // Carrega os apartamentos diretamente usando o ficheiro DataLoader
+            // Carrega os apartamentos do arquivo JSON
             Apartments = DataLoader.LoadApartmentsFromFile(filePath);
             // Exibe os apartamentos no DataGridView
             DisplayApartmentsInDataGridView();
-            // Se não for funcionário, esconde o botão de remoção do apartamento
+            // Verifica se o usuário é um funcionário, caso contrario remove o botão de remover apartamento
             if (!IsFuncionario)
             {
                 btnRemoveApartment.Visible = false;

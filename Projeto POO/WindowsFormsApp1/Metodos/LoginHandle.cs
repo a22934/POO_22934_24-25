@@ -5,7 +5,14 @@ using ClientManagement_OOP;
 using WindowsFormsApp1;
 
 public static class LoginHandler
-{
+{ /// <summary>
+  /// Processa o login de um funcionário ou cliente, verificando as credenciais.
+  /// </summary>
+  /// <param name="username">Nome de utilizador (ou número de funcionário).</param>
+  /// <param name="password">Senha do utilizador.</param>
+  /// <param name="funcionarios">Lista de funcionários para verificar as credenciais.</param>
+  /// <param name="clients">Lista de clientes para verificar as credenciais.</param>
+  /// <param name="loginForm">Formulário de login que exibe os resultados do login.</param>
     public static void HandleLogin(string username, string password, List<Funcionario> funcionarios, List<Client> clients, LoginForm loginForm)
     {
         // Verifica se o login é de um funcionário
@@ -37,9 +44,12 @@ public static class LoginHandler
         }
        
         }
-    
-   
-public static void HandleRegister(LoginForm loginForm)
+
+    /// <summary>
+    /// Exibe o formulário de registro para um novo cliente.
+    /// </summary>
+    /// <param name="loginForm">O formulário de login, que será atualizado com a nova lista de clientes após o registro.</param>
+    public static void HandleRegister(LoginForm loginForm)
     {
         RegisterClientForm registerClientForm = new RegisterClientForm(loginForm.Clients);
         if (registerClientForm.ShowDialog() == DialogResult.OK)

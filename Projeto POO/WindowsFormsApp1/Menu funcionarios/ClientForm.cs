@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {       /// <summary>
-        /// Formulário para exibir e gerenciar clientes.
+        /// Formulário para exibir e gerir clientes.
         /// </summary>
     public partial class ClientForm : Form
     {
@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
 
-            // Inicializa a lista de clientes usando o DataLoader
+            // Inicializa a lista de clientes
             Clients = DataLoader.LoadClientsFromFile(filePath);
 
             // Exibe os clientes no ListBox
@@ -31,11 +31,11 @@ namespace WindowsFormsApp1
         /// </summary>
         private void DisplayClientsInListBox()
         {
-            listBoxClients.Items.Clear(); // Limpa o ListBox antes de adicionar novos itens
+            listBoxClients.Items.Clear(); // Limpa a lista de clientes
 
             foreach (var client in Clients)
             {
-                listBoxClients.Items.Add(client); // Adiciona diretamente o cliente no ListBox
+                listBoxClients.Items.Add(client); // Adiciona o cliente à lista
             }
         }
 
@@ -46,10 +46,10 @@ namespace WindowsFormsApp1
         /// <param name="e">Os dados do evento.</param>
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            // Chama o método RemoveClient da classe Remove
+            
             Remove.RemoveClient(Clients, filePath, listBoxClients.SelectedIndex);
 
-            // Atualiza a exibição da lista após a remoção
+            // Exibe os clientes no ListBox
             DisplayClientsInListBox();
         }
     }

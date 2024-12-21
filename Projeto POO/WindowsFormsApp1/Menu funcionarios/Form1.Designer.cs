@@ -49,7 +49,7 @@
             // 
             // btnRegister
             // 
-            this.btnRegister.Location = new System.Drawing.Point(12, 58);
+            this.btnRegister.Location = new System.Drawing.Point(149, 12);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(120, 40);
             this.btnRegister.TabIndex = 1;
@@ -59,7 +59,7 @@
             // 
             // btnApartments
             // 
-            this.btnApartments.Location = new System.Drawing.Point(12, 104);
+            this.btnApartments.Location = new System.Drawing.Point(299, 12);
             this.btnApartments.Name = "btnApartments";
             this.btnApartments.Size = new System.Drawing.Size(120, 40);
             this.btnApartments.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             // btnConsultas
             // 
-            this.btnConsultas.Location = new System.Drawing.Point(12, 150);
+            this.btnConsultas.Location = new System.Drawing.Point(12, 74);
             this.btnConsultas.Name = "btnConsultas";
             this.btnConsultas.Size = new System.Drawing.Size(120, 40);
             this.btnConsultas.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             // btnCheckInCheckOut
             // 
-            this.btnCheckInCheckOut.Location = new System.Drawing.Point(12, 196);
+            this.btnCheckInCheckOut.Location = new System.Drawing.Point(149, 74);
             this.btnCheckInCheckOut.Name = "btnCheckInCheckOut";
             this.btnCheckInCheckOut.Size = new System.Drawing.Size(120, 40);
             this.btnCheckInCheckOut.TabIndex = 4;
@@ -89,15 +89,17 @@
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(150, 300);
+            this.ClientSize = new System.Drawing.Size(450, 141);
             this.Controls.Add(this.btnCheckInCheckOut);
             this.Controls.Add(this.btnConsultas);
             this.Controls.Add(this.btnApartments);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnClients);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
+
         }
 
         #endregion

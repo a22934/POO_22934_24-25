@@ -8,14 +8,16 @@ namespace WindowsFormsApp1
     /// Classe principal que contém o ponto de entrada da aplicação.
     /// </summary>
     static class Program
-    {
+    { /// <summary>
+      /// Método principal que inicia a aplicação, gere o fluxo de login e abre o formulário adequado.
+      /// </summary>
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            Application.EnableVisualStyles(); // Habilita estilos visuais
+            Application.SetCompatibleTextRenderingDefault(false); // Define a renderização de texto compatível
 
-            // Cria o formulário de login
+            // Cria um formulário de login
             LoginForm loginForm = new LoginForm();
 
             // Verifica se o login foi bem-sucedido
@@ -32,13 +34,13 @@ namespace WindowsFormsApp1
                 {
                     // Se for cliente, abre o menu de clientes
                     Client loggedClient = loginForm.LoggedClient; // Obtém o cliente logado
-                    ClientesMenu clientesMenu = new ClientesMenu(loginForm.Apartments, loggedClient); // Passa a lista de apartamentos e o cliente logado
+                    ClientesMenu clientesMenu = new ClientesMenu(loginForm.Apartments, loggedClient); // Cria o menu de clientes
                     Application.Run(clientesMenu); // Usa Application.Run uma vez aqui para rodar o loop de eventos
                 }
             }
             else
             {
-                // Caso o login falhe ou seja cancelado, a aplicação não faz nada ou termina
+                // Se o login falhar, fecha a aplicação
                 Application.Exit();
             }
         }

@@ -8,8 +8,10 @@ namespace WindowsFormsApp1
 {
     public partial class ConsultaForm : Form
     {
-        private const string caminhoArquivoReservas = "reservas.json";
-
+        private const string caminhoArquivoReservas = "reservas.json"; // Caminho do arquivo de reservas
+        /// <summary>
+        /// Inicializa uma nova instância do formulário <see cref="ConsultaForm"/>.
+        /// </summary>
         public ConsultaForm()
         {
             InitializeComponent();
@@ -30,7 +32,7 @@ namespace WindowsFormsApp1
                     return;
                 }
 
-                // Lê e desserializa as reservas do arquivo JSON
+                // Lê o arquivo de reservas e desserializa o JSON
                 string json = File.ReadAllText(caminhoArquivoReservas);
                 List<Reserva> reservas = JsonConvert.DeserializeObject<List<Reserva>>(json);
 

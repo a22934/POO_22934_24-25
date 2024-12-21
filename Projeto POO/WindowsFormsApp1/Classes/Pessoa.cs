@@ -7,7 +7,7 @@ namespace ClientManagement_OOP
 {
     public abstract class Pessoa
     {
-        public string Nome { get; set; }
+        public string Nome { get; set; } // Nome da pessoa
         public string Password { get; set; }
         /// <summary>
         /// Inicializa uma nova instância da classe <see cref="Pessoa"/>.
