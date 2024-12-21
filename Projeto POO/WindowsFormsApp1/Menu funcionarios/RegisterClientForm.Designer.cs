@@ -123,8 +123,10 @@
             this.Controls.Add(this.txtNIF);
             this.Controls.Add(this.txtName);
             this.Name = "RegisterClientForm";
+            this.Text = "Registrar Cliente";
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
     }
 }

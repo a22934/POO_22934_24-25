@@ -144,6 +144,12 @@
     <EmbeddedResource Include="Menu funcionarios\ApartmentForm.resx">
       <DependentUpon>ApartmentForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menu funcionarios\CheckInCheckOutForm.resx">
+      <DependentUpon>CheckInCheckOutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu funcionarios\ConsultaForm.resx">
+      <DependentUpon>ConsultaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu funcionarios\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

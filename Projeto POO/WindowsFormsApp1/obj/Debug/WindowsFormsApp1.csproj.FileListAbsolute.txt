@@ -133,3 +133,5 @@ C:\Users\Win10\Desktop\ll\POO_22934_24-25\Projeto POO\WindowsFormsApp1\bin\Debug
 C:\Users\Win10\Desktop\ll\POO_22934_24-25\Projeto POO\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.HashCode.xml
 C:\Users\Win10\Desktop\ll\POO_22934_24-25\Projeto POO\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Win10\Desktop\ll\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\Win10\Desktop\ll\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConsultaForm.resources
+C:\Users\Win10\Desktop\ll\POO_22934_24-25\Projeto POO\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.CheckInCheckOutForm.resources

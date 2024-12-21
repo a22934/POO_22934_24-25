@@ -7,26 +7,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\reservas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\menu funcionarios\\consultaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\consultaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\menu funcionarios\\checkincheckoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\checkincheckoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\classes\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:classes\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\metodos\\checks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:metodos\\checks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|c:\\users\\win10\\desktop\\ll\\poo_22934_24-25\\projeto poo\\windowsformsapp1\\menu funcionarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC07FDD3-8362-4DA9-BCEE-2650961611F4}|WindowsFormsApp1.csproj|solutionrelative:menu funcionarios\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\funcionarios.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\funcionarios.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -56,79 +36,14 @@
               "RelativeDocumentMoniker": "bin\\Debug\\reservas.json",
               "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\reservas.json",
               "RelativeToolTip": "bin\\Debug\\reservas.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-20T23:17:53.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CheckInCheckOutForm.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\CheckInCheckOutForm.cs",
-              "RelativeDocumentMoniker": "Menu funcionarios\\CheckInCheckOutForm.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\CheckInCheckOutForm.cs",
-              "RelativeToolTip": "Menu funcionarios\\CheckInCheckOutForm.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T22:58:12.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\Form1.cs",
-              "RelativeDocumentMoniker": "Menu funcionarios\\Form1.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\Form1.cs",
-              "RelativeToolTip": "Menu funcionarios\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T22:56:35.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Classes\\Reserva.cs",
-              "RelativeDocumentMoniker": "Classes\\Reserva.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Classes\\Reserva.cs",
-              "RelativeToolTip": "Classes\\Reserva.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T22:55:43.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Checks.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\Checks.cs",
-              "RelativeDocumentMoniker": "Metodos\\Checks.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Metodos\\Checks.cs",
-              "RelativeToolTip": "Metodos\\Checks.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T22:55:15.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConsultaForm.cs",
-              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ConsultaForm.cs",
-              "RelativeDocumentMoniker": "Menu funcionarios\\ConsultaForm.cs",
-              "ToolTip": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\Menu funcionarios\\ConsultaForm.cs",
-              "RelativeToolTip": "Menu funcionarios\\ConsultaForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T17:09:31.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "funcionarios.json",
               "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\ll\\POO_22934_24-25\\Projeto POO\\WindowsFormsApp1\\bin\\Debug\\funcionarios.json",
               "RelativeDocumentMoniker": "bin\\Debug\\funcionarios.json",
@@ -136,7 +51,8 @@
               "RelativeToolTip": "bin\\Debug\\funcionarios.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-20T14:13:14.415Z"
+              "WhenOpened": "2024-12-20T14:13:14.415Z",
+              "EditorCaption": ""
             }
           ]
         }

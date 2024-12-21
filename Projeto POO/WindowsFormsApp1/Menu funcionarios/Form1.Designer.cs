@@ -97,7 +97,7 @@
             this.Controls.Add(this.btnClients);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Menu de Funcionários";
             this.ResumeLayout(false);
 
         }

@@ -1,14 +1,14 @@
 [
   {
-    "NIF": "231321",
-    "Contact": "2132",
-    "Nome": "alberto",
+    "NIF": "123456789",
+    "Contact": "933083856",
+    "Nome": "Paulo",
     "Password": "12345"
   },
   {
-    "NIF": "323213",
-    "Contact": "213",
-    "Nome": "joaquim",
-    "Password": "33333"
+    "NIF": "123456789",
+    "Contact": "936457467",
+    "Nome": "Alberto",
+    "Password": "12345"
   }
 ]

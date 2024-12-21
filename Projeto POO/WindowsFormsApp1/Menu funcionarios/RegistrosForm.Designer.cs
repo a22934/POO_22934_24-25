@@ -47,7 +47,7 @@
             this.RegisterEmployee.Name = "RegisterEmployee";
             this.RegisterEmployee.Size = new System.Drawing.Size(102, 36);
             this.RegisterEmployee.TabIndex = 2;
-            this.RegisterEmployee.Text = "Registar funcionario";
+            this.RegisterEmployee.Text = "Adicionar Funcionario";
             this.RegisterEmployee.UseVisualStyleBackColor = true;
             this.RegisterEmployee.Click += new System.EventHandler(this.btnRegisterEmployee_Click);
             // 
