@@ -1,0 +1,12 @@
+C:\Users\Win10\Desktop\New version\DataLibrary\obj\Debug\net8.0\DataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win10\Desktop\New version\DataLibrary\obj\Debug\net8.0\DataLibrary.AssemblyInfoInputs.cache
+C:\Users\Win10\Desktop\New version\DataLibrary\obj\Debug\net8.0\DataLibrary.AssemblyInfo.cs
+C:\Users\Win10\Desktop\New version\DataLibrary\obj\Debug\net8.0\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Win10\Desktop\New version\DataLibrary\bin\Debug\net8.0\DataLibrary.deps.json
+C:\Users\Win10\Desktop\New version\DataLibrary\bin\Debug\net8.0\DataLibrary.dll
+C:\Users\Win10\Desktop\New version\DataLibrary\bin\Debug\net8.0\DataLibrary.pdb
+C:\Users\Win10\Desktop\New version\DataLibrary\obj\Debug\net8.0\DataLibrary.csproj.AssemblyReference.cache
+C:\Users\Win10\Desktop\New version\DataLibrary\obj\Debug\net8.0\DataLibrary.dll
+C:\Users\Win10\Desktop\New version\DataLibrary\obj\Debug\net8.0\refint\DataLibrary.dll
+C:\Users\Win10\Desktop\New version\DataLibrary\obj\Debug\net8.0\DataLibrary.pdb
+C:\Users\Win10\Desktop\New version\DataLibrary\obj\Debug\net8.0\ref\DataLibrary.dll

@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Win10\\Desktop\\New version POO v2\\POO_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B54A38F6-CD9F-438E-A1CC-CAB579BCFADA}|TestProject1\\TestProject1.csproj|c:\\users\\win10\\desktop\\new version poo v2\\poo_project\\testproject1\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B54A38F6-CD9F-438E-A1CC-CAB579BCFADA}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B82E7E-17F0-410A-B428-245B7DDCF24B}|POO_Project\\POO_Project.csproj|c:\\users\\win10\\desktop\\new version poo v2\\poo_project\\poo_project\\views\\funcionariosviews\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B82E7E-17F0-410A-B428-245B7DDCF24B}|POO_Project\\POO_Project.csproj|solutionrelative:poo_project\\views\\funcionariosviews\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataSaver.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\New version POO v2\\POO_Project\\TestProject1\\DataSaver.cs",
+              "RelativeDocumentMoniker": "TestProject1\\DataSaver.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\New version POO v2\\POO_Project\\TestProject1\\DataSaver.cs",
+              "RelativeToolTip": "TestProject1\\DataSaver.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:52:52.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Win10\\Desktop\\New version POO v2\\POO_Project\\POO_Project\\Views\\FuncionariosViews\\Form1.cs",
+              "RelativeDocumentMoniker": "POO_Project\\Views\\FuncionariosViews\\Form1.cs",
+              "ToolTip": "C:\\Users\\Win10\\Desktop\\New version POO v2\\POO_Project\\POO_Project\\Views\\FuncionariosViews\\Form1.cs",
+              "RelativeToolTip": "POO_Project\\Views\\FuncionariosViews\\Form1.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:35:23.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

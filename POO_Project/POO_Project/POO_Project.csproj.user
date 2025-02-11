@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Views\ClientsViews\ClientesMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\ClientsViews\CriarReservaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\FuncionariosViews\ApartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\FuncionariosViews\CheckInCheckOutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\FuncionariosViews\ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\FuncionariosViews\ConsultaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\FuncionariosViews\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\FuncionariosViews\LoginLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\FuncionariosViews\RegisterApartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\FuncionariosViews\RegisterClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\FuncionariosViews\RegisterEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\FuncionariosViews\RegistrosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\LoginViews\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
